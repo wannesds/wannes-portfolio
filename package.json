@@ -1,5 +1,4 @@
 {
-  "homepage" : "http://wannesds.github.io/wannes-portfolio",
   "name": "wannes-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "homepage" : "http://wannesds.github.io/wannes-portfolio"
 }
