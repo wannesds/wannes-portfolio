@@ -9,11 +9,12 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "sass": "^1.29.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },"homepage" : "https://wannesds.github.io/wannes-portfolio"
+  },
+  "homepage": "https://wannesds.github.io/wannes-portfolio"
 }
