@@ -1,0 +1,10 @@
+.Intro-box {
+    height: 70vmin;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#111111+0,2a4349+53,00a592+100 */
+background: rgb(17,17,17); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(17,17,17,1) 0%, rgba(42,67,73,1) 53%, rgba(0,165,146,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(17,17,17,1) 0%,rgba(42,67,73,1) 53%,rgba(0,165,146,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(17,17,17,1) 0%,rgba(42,67,73,1) 53%,rgba(0,165,146,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#00a592',GradientType=1 ); /* IE6-9 */
+
+}
