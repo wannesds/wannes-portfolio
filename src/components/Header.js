@@ -6,11 +6,10 @@ const Header = () => {
 
     return(
         <Headroom>
-            <div className="Header-box w-100"> 
-             <div className="img"></div>
-             
-             
-        </div>
+        {/* show/hides content when scrolling up/down */}
+        <header className="w-100"> 
+             <div className="img"></div>  
+        </header>
         </Headroom>
     )
 }
