@@ -8,12 +8,9 @@ header {
     margin: 0 auto;
     padding: 10px 3vw;
     // @include gradient;
-    .img {
-        width: auto;
-        height: 60px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url(../images/logo5.png);
+    .logo {
+        width: 60px;
+        height: 60px;    
     }
 
 }

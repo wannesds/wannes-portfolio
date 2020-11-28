@@ -9,7 +9,7 @@ const Header = () => {
         <Headroom>
         {/* show/hides content when scrolling up/down */}
         <header className="w-100"> 
-             <WDLogo className='img'/> 
+             <WDLogo className='logo'/> 
         </header>
         </Headroom>
     )
