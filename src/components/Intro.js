@@ -6,7 +6,7 @@ const Intro = () => {
     return(
         <div className="Intro-box">        
             <div className="Intro-nav">
-
+            
             </div>
         </div>
     )
