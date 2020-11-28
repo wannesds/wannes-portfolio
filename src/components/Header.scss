@@ -1,12 +1,13 @@
 @import './_vars';
 
+
 header { 
     //DO hide header when scrolling down, show when scrolling up, 
     //DO show clickable arrow up when scrolling up
     //DO something when hovering/clicking logo (idea: "this logo isnt clickable ;")(idea: "add another object on intro animation")
     margin: 0 auto;
     padding: 10px 3vw;
-    @include gradient;
+    // @include gradient;
     .img {
         width: auto;
         height: 60px;

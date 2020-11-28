@@ -4,7 +4,7 @@ import './Content.scss';
 const Content = () => {
 
     return(
-        <div className="Content-box">        
+        <div className="content-box">        
             <a>hello content</a>
         </div>
     )
