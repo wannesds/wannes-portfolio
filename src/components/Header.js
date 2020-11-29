@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import Headroom from 'react-headroom';
-import {ReactComponent as WDLogo} from '../SVG/WD-Logo.svg';
+import {ReactComponent as WDLogo} from '../SVG/logo-WD-A.svg';
 
 const Header = () => {
 
