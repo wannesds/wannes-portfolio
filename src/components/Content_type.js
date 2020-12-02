@@ -4,7 +4,7 @@ import './Content_type.scss';
 const Content_type = ({type}) => {
 
     return(
-        <div className="content-type-box green center">        
+        <div id={type} className="content-type-box green center">        
             <a>hello {type}</a>
         </div>
     )

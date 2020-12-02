@@ -13,9 +13,9 @@ const Home = () => {
             <Header/> 
             <Home_animation className="animation"/>
             <div className="home-nav">
-                <Home_link icon="〈〉" type="CODE"/>
-                <Home_link icon="｛｝" type="DESIGN"/>
-                <Home_link icon="〔〕" type="ART"/>
+                <Home_link icon="〈〉" type="Code"/>
+                <Home_link icon="｛｝" type="Design"/>
+                <Home_link icon="〔〕" type="Art"/>
             </div>
         </div>
     )

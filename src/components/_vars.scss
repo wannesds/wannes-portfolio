@@ -13,11 +13,11 @@ $cyan : rgba(1, 150, 100, 1);
 $cyan-d : rgba(19, 105, 82, 1);
 $dark : rgb(34, 36, 36);
 $grey : rgba(52, 54, 54, 1);
+$grey-blue : rgb(50, 66, 66);
 $light : rgba(149, 151, 150, 1);
 
 @mixin gradient {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0d1112+0,1d3130+45,19715a+85,198c71+100 */
-    background: rgb(13,17,18); /* Old browsers */
+    background: rgb(25, 35, 37); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(13,17,18,1) 0%, rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(13,17,18,1) 0%,rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(13,17,18,1) 0%,rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

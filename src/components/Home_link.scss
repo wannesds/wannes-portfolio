@@ -6,18 +6,20 @@
     width: 150px;
     height: 50px;
     font-size: 150%;
-    margin-top: 22px;
+    margin: 22px 10px 0 10px;
 
     // background-color:rgba(0, 128, 0, 0.096);
     span {
         color: $cyan;
     }
     a {
-        color: $grey;
+        color: $grey-blue;
         text-decoration: none;
         font-family: $font-nunito;
         font-weight: bold;
-        padding-top: 2px;
+        padding-top: 3px;
+        padding: 2px 1px 0 1px;
+        text-transform: uppercase;
     }
     &:hover {
         span {
@@ -25,8 +27,6 @@
         }
         a {
             color: $cyan-l;
-            border-color: $cyan-l;
-            border-bottom: none ;
         }   
     }
 }
@@ -35,7 +35,9 @@
     .home_link {
         &:hover {
             a {
+                border-color: $cyan-l;
                 border-bottom: solid;
+                border-spacing: 10px;
             }
         }
     }
