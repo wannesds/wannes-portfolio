@@ -17,6 +17,7 @@ const Home = () => {
                 <Home_link icon="｛｝" type="Design"/>
                 <Home_link icon="〔〕" type="Art"/>
             </div>
+            
         </div>
     )
 }
