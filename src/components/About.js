@@ -4,7 +4,7 @@ import './About.scss';
 const About = () => {
 
     return(
-        <div className="about-box">
+        <div id="about" className="about-box">
             <a>ABOUT WURKS</a>
         </div>
     )

@@ -6,9 +6,9 @@ const Content = () => {
 
     return(
         <div className="content-box">        
-            <Content_type type="Code"/>
-            <Content_type type="Design"/>
-            <Content_type type="Art"/>
+            <Content_type type="code"/>
+            <Content_type type="design"/>
+            <Content_type type="art"/>
         </div>
     )
 }
