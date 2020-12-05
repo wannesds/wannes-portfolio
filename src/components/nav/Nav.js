@@ -41,7 +41,7 @@ function Nav() {
     return(
         <div className="nav-box" onMouseLeave={hideNav}>
             <a className="menu_button" onMouseOver={showNav}>
-        sup
+                svg
             </a>
             <div hidden={activeNav} >
                 {

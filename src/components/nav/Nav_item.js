@@ -4,7 +4,7 @@ import './Nav_item.scss';
 const Nav_item = ({name}) => {
 
     return(
-        <div className="nav_item">
+        <div className="nav-item">
             <a href={`#${name}`}>{name}</a>
         </div>
     )
