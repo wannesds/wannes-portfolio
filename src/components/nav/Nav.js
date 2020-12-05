@@ -40,16 +40,16 @@ function Nav() {
     }
     return(
         <div className="nav-box" onMouseLeave={hideNav}>
-            <a href="/" className="menu_button" onMouseOver={showNav}>
+            <a className="menu_button" onMouseOver={showNav}>
         sup
             </a>
-            <ul hidden={activeNav} >
+            <div hidden={activeNav} >
                 {
                     items.map((item)=>
                         <Nav_item key={item.id} name={item.name}/>
                     )
                 }
-            </ul>
+            </div>
         </div>
     )
 }
