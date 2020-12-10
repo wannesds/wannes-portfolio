@@ -3,11 +3,29 @@
 .nav-box {
     // background-color: red;
     width: 80px;
+    margin-left:30px;
     height: auto;
+    &:hover {
+        .nav-svg {
+            transform: rotate(90deg);
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+    }
 }
 
-.menu_button {
-    background-color:purple;
-    width: 30px;
-    height: 30px;
+.nav-svg {
+    width: 40px;
+    height: 40px;
+    fill-opacity: 0.8;
+    margin-left:20px;
+    margin-top: 5px;
+    &:hover {
+        fill-opacity: 1;   
+    }
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
 }

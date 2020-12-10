@@ -38,7 +38,6 @@
 @media (min-width: 812px) {
     .home_link {
         &:hover {
-            border: none;
             a {
                 border-color: $cyan-l;
                 border-bottom: solid 3px;

@@ -1,13 +1,25 @@
 @import '../_vars';
 
 .nav-item {
-    background-color: rgba(15, 15, 15,0.5);
-    width: 80px;
-    height: 20px;
+    margin: 10px;
+    margin-left: 15px;
+
+    // &:hover {
+    //     border-left: solid 5px $cyan-d;
+    // }
+
     a {
         font-family: $font-rubik;
+        font-weight: bold;
         text-transform: uppercase;
         text-emphasis: none;
         text-decoration: none;
-    }
+        color: $grey-blue;
+        padding: 2px;
+
+        &:hover {
+            color: $cyan-l;
+            border: solid 2px $cyan-l;
+        }
+    }  
 }

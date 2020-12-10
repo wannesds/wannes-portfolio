@@ -1,8 +1,9 @@
-import React, {useState, useEffect } from 'react';
+import React, {useState} from 'react';
 import './Nav.scss';
 import Nav_item from './Nav_item';
+import {ReactComponent as NavSvg} from "../SVG/menu-A.svg";
 
-function Nav() {
+const Nav = () => {
     const items = [
         {
             key: 1, 
@@ -40,10 +41,8 @@ function Nav() {
     }
     return(
         <div className="nav-box" onMouseLeave={hideNav}>
-            <a className="menu_button" onMouseOver={showNav}>
-                svg
-            </a>
-            <div hidden={activeNav} >
+            <NavSvg className="nav-svg" onMouseOver={showNav}/>
+            <div className="nav-list" hidden={activeNav} >
                 {
                     items.map((item)=>
                         <Nav_item key={item.id} name={item.name}/>
