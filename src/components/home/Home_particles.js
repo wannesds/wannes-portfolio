@@ -163,7 +163,7 @@ const Home_particles = () => {
                     "mode": "bounce"
                   },
                   "color": {
-                    "value": "#25757e",
+                    "value": "#257574",
                     "animation": {
                       "enable": true,
                       "speed": 0.9,
@@ -365,15 +365,15 @@ const Home_particles = () => {
                     "lines": {
                       "enable": true,
                       "frequency": 0.003,
-                      "opacity": 0.8,
+                      "opacity": 0.6,
                       "color": {
                         "value": "#10c286"
                       }
                     },
                     "particles": {
                       "enable": true,
-                      "frequency": 0.04,
-                      "opacity": 0.8,
+                      "frequency": 0.02,
+                      "opacity": 0.6,
                       "color": {
                         "value": "#10c286"
                       }

@@ -41,7 +41,7 @@ const Nav = () => {
     }
     return(
         <div className="nav-box" onMouseLeave={hideNav}>
-            <NavSvg className="nav-svg" onMouseOver={showNav}/>
+            <NavSvg fill="red" className="nav-svg" onMouseOver={showNav}/>
             <div className="nav-list" hidden={activeNav} >
                 {
                     items.map((item)=>

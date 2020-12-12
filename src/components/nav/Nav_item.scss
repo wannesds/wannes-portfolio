@@ -15,9 +15,12 @@
         text-decoration: none;
         color: $grey-blue;
         padding: 2px;
+        border:none 2px $cyan-l;
         &:hover {
             color: $cyan-l;
-            border: solid 2px $cyan-l;
+            border: solid;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
         }
     }  
 }
