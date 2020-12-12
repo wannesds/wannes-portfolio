@@ -25,7 +25,7 @@ const Home_particles = () => {
                   "events": {
                     "onClick": {
                       "enable": true,
-                      "mode": "repulse"
+                      "mode": "push"
                     },
                     "onDiv": {
                       "selectors": ["#home"],
@@ -35,11 +35,11 @@ const Home_particles = () => {
                     },
                     "onHover": {
                       "enable": true,
-                      "mode": "attract",
+                      "mode": "bubble",
                       "parallax": {
                         "enable": true,
-                        "force": 50,
-                        "smooth": 50
+                        "force": 40,
+                        "smooth": 20
                       }
                     },
                     "resize": false
@@ -95,7 +95,7 @@ const Home_particles = () => {
                       }
                     },
                     "push": {
-                      "quantity": 3
+                      "quantity": 2
                     },
                     "remove": {
                       "quantity": 100
@@ -130,14 +130,14 @@ const Home_particles = () => {
                     "horizontal": {
                       "random": {
                         "enable": true,
-                        "minimumValue": 0.1
+                        "minimumValue": 0.2
                       },
                       "value": 1
                     },
                     "vertical": {
                       "random": {
                         "enable": true,
-                        "minimumValue": 0.1
+                        "minimumValue": 0.2
                       },
                       "value": 1
                     }
@@ -165,8 +165,8 @@ const Home_particles = () => {
                   "color": {
                     "value": "#25757e",
                     "animation": {
-                      "enable": false,
-                      "speed": 0.5,
+                      "enable": true,
+                      "speed": 0.9,
                       "sync": true
                     }
                   },
@@ -270,10 +270,10 @@ const Home_particles = () => {
                     "density": {
                       "enable": false,
                       "area": 800,
-                      "factor": 1000
+                      "factor": 1
                     },
-                    "limit": 80,
-                    "value": 80
+                    "limit": 100,
+                    "value": 60
                   },
                   "opacity": {
                     "random": {
@@ -364,7 +364,7 @@ const Home_particles = () => {
                   "twinkle": {
                     "lines": {
                       "enable": true,
-                      "frequency": 0.005,
+                      "frequency": 0.003,
                       "opacity": 0.8,
                       "color": {
                         "value": "#10c286"
@@ -372,7 +372,7 @@ const Home_particles = () => {
                     },
                     "particles": {
                       "enable": true,
-                      "frequency": 0.05,
+                      "frequency": 0.04,
                       "opacity": 0.8,
                       "color": {
                         "value": "#10c286"
