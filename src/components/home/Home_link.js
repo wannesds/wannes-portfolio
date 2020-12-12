@@ -1,7 +1,5 @@
 import React from 'react';
-// import {Link} from 'react-navigation';
 import './Home_link.scss';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
 
