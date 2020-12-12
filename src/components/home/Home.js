@@ -29,7 +29,7 @@ const Home = () => {
                   "events": {
                     "onClick": {
                       "enable": true,
-                      "mode": "push"
+                      "mode": "remove"
                     },
                     "onDiv": {
                       "selectors": [],
@@ -39,11 +39,11 @@ const Home = () => {
                     },
                     "onHover": {
                       "enable": true,
-                      "mode": "slow",
+                      "mode": "trail",
                       "parallax": {
-                        "enable": false,
-                        "force": 1,
-                        "smooth": 1
+                        "enable": true,
+                        "force": 10,
+                        "smooth": 30
                       }
                     },
                     "resize": true
@@ -64,7 +64,7 @@ const Home = () => {
                       "size": 40
                     },
                     "connect": {
-                      "distance": 80,
+                      "distance": 120,
                       "links": {
                         "opacity": 0.5
                       },
@@ -101,11 +101,11 @@ const Home = () => {
                       "quantity": 4
                     },
                     "remove": {
-                      "quantity": 2
+                      "quantity": 100
                     },
                     "repulse": {
-                      "distance": 50,
-                      "duration": 0.4,
+                      "distance": 100,
+                      "duration": 1,
                       "speed": 1
                     },
                     "slow": {
@@ -113,7 +113,7 @@ const Home = () => {
                       "radius": 200
                     },
                     "trail": {
-                      "delay": 1,
+                      "delay": 0.1,
                       "quantity": 1
                     }
                   }
@@ -166,19 +166,19 @@ const Home = () => {
                   "color": {
                     "value": "#25757e",
                     "animation": {
-                      "enable": false,
+                      "enable": true,
                       "speed": 1,
                       "sync": true
                     }
                   },
                   "life": {
-                    "count": 0,
+                    "count": 1,
                     "delay": {
                       "random": {
-                        "enable": false,
-                        "minimumValue": 0
+                        "enable": true,
+                        "minimumValue": 0.001
                       },
-                      "value": 0,
+                      "value": 1,
                       "sync": false
                     },
                     "duration": {
@@ -186,22 +186,22 @@ const Home = () => {
                         "enable": false,
                         "minimumValue": 0.0001
                       },
-                      "value": 0,
+                      "value": 15,
                       "sync": false
                     }
                   },
                   "links": {
                     "blink": false,
                     "color": {
-                      "value": "#ffffff"
+                      "value": "#959796"
                     },
                     "consent": false,
-                    "distance": 150,
+                    "distance": 200,
                     "enable": true,
-                    "frequency": 1,
-                    "opacity": 0.4,
+                    "frequency": 0.8,
+                    "opacity": 0.2,
                     "shadow": {
-                      "blur": 5,
+                      "blur": 1,
                       "color": {
                         "value": "#00ff00"
                       },
@@ -226,8 +226,8 @@ const Home = () => {
                         "y": 1200
                       }
                     },
-                    "direction": "none",
-                    "distance": 0,
+                    "direction": "random",
+                    "distance": 200,
                     "enable": true,
                     "gravity": {
                       "acceleration": 9.81,
@@ -254,12 +254,12 @@ const Home = () => {
                     "random": false,
                     "size": false,
                     "speed": 2,
-                    "straight": false,
+                    "straight": true,
                     "trail": {
                       "enable": false,
-                      "length": 10,
+                      "length": 0.01,
                       "fillColor": {
-                        "value": "#000000"
+                        "value": "10c286"
                       }
                     },
                     "vibrate": false,
@@ -272,7 +272,7 @@ const Home = () => {
                       "factor": 1000
                     },
                     "limit": 0,
-                    "value": 80
+                    "value": 70
                   },
                   "opacity": {
                     "random": {
@@ -303,14 +303,14 @@ const Home = () => {
                     "path": false
                   },
                   "shadow": {
-                    "blur": 0,
+                    "blur": 2,
                     "color": {
-                      "value": "#000000"
+                      "value": "#10c286"
                     },
                     "enable": false,
                     "offset": {
-                      "x": 0,
-                      "y": 0
+                      "x": 0.1,
+                      "y": 0.1
                     }
                   },
                   "shape": {
@@ -372,7 +372,7 @@ const Home = () => {
                     "particles": {
                       "enable": true,
                       "frequency": 0.05,
-                      "opacity": 1,
+                      "opacity": 0.8,
                       "color": {
                         "value": "#10c286"
                       }
