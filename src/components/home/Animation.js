@@ -35,7 +35,7 @@ const Animation = () => {
                     },
                     "onHover": {
                       "enable": true,
-                      "mode": "bubble",
+                      "mode": "trail",
                       "parallax": {
                         "enable": true,
                         "force": 40,
@@ -110,7 +110,7 @@ const Animation = () => {
                       "radius": 200
                     },
                     "trail": {
-                      "delay": 0.5,
+                      "delay": 1,
                       "quantity": 1
                     }
                   }

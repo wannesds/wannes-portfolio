@@ -31,18 +31,18 @@ const Nav = () => {
         }
     ];
 
-    const [activeNav, setActiveNav] = useState(true);
+    const [hideNav, setHideNav] = useState(true);
 
-    const showNav = () => {
-        setActiveNav(false);
+    const doShowNav = () => {
+        setHideNav(false);
     } 
-    const hideNav = () => {
-        setActiveNav(true);
+    const doHideNav = () => {
+        setHideNav(true);
     }
     return(
-        <div className="nav-box" OnClick={showNav} onMouseLeave={hideNav}>
-            <NavSvg fill="red" className="nav-svg"/>
-            <div className="nav-list" hidden={activeNav} >
+        <div className="nav-box"  onMouseLeave={doHideNav}>
+            <NavSvg fill="red" className="nav-svg" onClick={doShowNav} onTouchMoveCapture={doShowNav}/>
+            <div className="nav-list" hidden={hideNav} >
                 {
                     items.map((item)=>
                         <NavLink key={item.id} name={item.name}/>

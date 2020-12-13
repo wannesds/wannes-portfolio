@@ -1,5 +1,4 @@
 import React from 'react';
-import './NavLink.scss';
 
 const NavLink = ({name}) => {
 

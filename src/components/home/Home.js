@@ -2,10 +2,8 @@ import React from 'react';
 import './Home.scss';
 import Header from '../Header';
 import './Home.scss';
-import Home_link from './HomeLink';
+import HomeLink from './HomeLink';
 import Animation from './Animation';
-
-
 
 const Home = () => {
 
@@ -14,9 +12,9 @@ const Home = () => {
             <Animation/>
             <Header/> 
             <div id="homelinks" className="home-links-box">
-                <Home_link icon="〈〉" type="code"/>
-                <Home_link icon="｛｝" type="design"/>
-                <Home_link icon="〔〕" type="art"/>
+                <HomeLink icon="〈〉" type="code"/>
+                <HomeLink icon="｛｝" type="design"/>
+                <HomeLink icon="〔〕" type="art"/>
             </div>
             
         </div>
