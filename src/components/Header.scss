@@ -2,7 +2,6 @@
 
 
 header { 
-    //DO hide header when scrolling down, show when scrolling up, 
     //DO show clickable arrow up when scrolling up
     //DO something when hovering/clicking logo (idea: "this logo isnt clickable ;")(idea: "add another object on intro animation")
     margin: 0 auto;
@@ -12,11 +11,12 @@ header {
     display: inline-flex;
     justify-content: space-between;
     .logo-svg {
-        width: 50px;
-        height: 50px; 
-        fill-opacity: 0.8;
+        width: 40px;
+        height: 40px;
+        .cls-1 { fill: $cyan-l; }
+        opacity: 0.8;
         &:hover {
-            fill-opacity: 0.9;
+            opacity: 1;
         }
     }
 

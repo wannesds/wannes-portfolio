@@ -1,14 +1,12 @@
 import React from 'react';
-// import {Link} from 'react-navigation';
-import './Home_link.scss';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import './HomeLink.scss';
 
 
 
-const Home_link = ({icon, type}) => {
+const HomeLink = ({icon, type}) => {
 
     return(
-        <div className="home_link">
+        <div className="home-link">
             <span>{icon.slice(0,1)}</span>
             <a href={`#${type}`}>{type}</a>
             {/* <Link to="#Code">{type}</Link> */}
@@ -17,4 +15,4 @@ const Home_link = ({icon, type}) => {
     )
 }
 
-export default Home_link;
+export default HomeLink;

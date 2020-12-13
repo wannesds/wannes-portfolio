@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Nav.scss';
-import Nav_item from './Nav_item';
+import NavLink from './NavLink';
 import {ReactComponent as NavSvg} from "../SVG/menu-A.svg";
 
 const Nav = () => {
@@ -31,24 +31,27 @@ const Nav = () => {
         }
     ];
 
-    const [activeNav, setActiveNav] = useState(true);
+    const [hideNav, setHideNav] = useState(true);
 
-    const showNav = () => {
-        setActiveNav(false);
+    const doShowNav = () => {
+        setHideNav(false);
     } 
-    const hideNav = () => {
-        setActiveNav(true);
+    const doHideNav = () => {
+        setHideNav(true);
     }
     return(
-        <div className="nav-box" onMouseLeave={hideNav}>
-            <NavSvg className="nav-svg" onMouseOver={showNav}/>
-            <div className="nav-list" hidden={activeNav} >
+        <div className="nav-box"  onMouseLeave={doHideNav}>
+            <NavSvg fill="red" className="nav-svg" onClick={doShowNav}/>
+            { hideNav ? <div></div> :
+
+                <div className="nav-list">
                 {
                     items.map((item)=>
-                        <Nav_item key={item.id} name={item.name}/>
+                        <NavLink key={item.id} name={item.name}/>
                     )
                 }
-            </div>
+                </div>
+            } 
         </div>
     )
 }

@@ -13,12 +13,13 @@ $font-atlatsi : 'Atlatsi';
 $font-tech : 'Share Tech Mono'; //usedd
 
 $cyan-l: #10c286;
-$cyan : rgba(1, 150, 100, 1);
-$cyan-d : rgba(19, 105, 82, 1);
-$dark : rgb(34, 36, 36);
-$grey : rgba(52, 54, 54, 1);
-$grey-blue : rgb(24, 88, 74);
-$light : rgba(149, 151, 150, 1);
+$cyan : #019664;
+$cyan-d : #136952;
+$dark : #222424;
+$grey : #343636;
+$grey-blue : #18584a;
+$grey-blue-d : #17473d;
+$light : #959796;
 
 @mixin gradient {
     background: rgb(25, 35, 37); /* Old browsers */

@@ -1,6 +1,6 @@
 @import '../_vars';
 
-.home_link {
+.home-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     // background-color: rgba(255, 140, 0, 0.507);
 
     span {
-        color: $cyan;
+        color: $cyan-l;
         height:100%;
     }
     a {
@@ -27,20 +27,26 @@
     &:hover {
         span {
             color: $cyan-d;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in-out;
         }
         a {
             color: $cyan-l;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in-out;
         }   
     }
     
 }
 
 @media (min-width: 812px) {
-    .home_link {
+    .home-link {
         &:hover {
             a {
                 border-color: $cyan-l;
                 border-bottom: solid 3px;
+                transition-duration: 0.2s;
+                transition-timing-function: ease-in-out;
             }
         }
     }
