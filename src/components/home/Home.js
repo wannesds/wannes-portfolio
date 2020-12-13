@@ -2,8 +2,8 @@ import React from 'react';
 import './Home.scss';
 import Header from '../Header';
 import './Home.scss';
-import Home_link from './Home_link';
-import Home_particles from './Home_particles';
+import Home_link from './HomeLink';
+import Animation from './Animation';
 
 
 
@@ -11,9 +11,9 @@ const Home = () => {
 
     return(
         <div id="home" className="home-box">
-            <Home_particles/>
+            <Animation/>
             <Header/> 
-            <div id="homelinks" className="home-nav">
+            <div id="homelinks" className="home-links-box">
                 <Home_link icon="〈〉" type="code"/>
                 <Home_link icon="｛｝" type="design"/>
                 <Home_link icon="〔〕" type="art"/>

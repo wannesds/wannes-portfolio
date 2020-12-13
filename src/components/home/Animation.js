@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 
 
-const Home_particles = () => {
+const Animation = () => {
 
     return(
             <Particles className="particles" 
@@ -387,4 +387,4 @@ const Home_particles = () => {
     )
 }
 
-export default Home_particles;
+export default Animation;
