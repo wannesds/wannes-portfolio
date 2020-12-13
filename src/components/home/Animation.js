@@ -373,7 +373,7 @@ const Animation = () => {
                     "particles": {
                       "enable": true,
                       "frequency": 0.02,
-                      "opacity": 0.6,
+                      "opacity": 0.8,
                       "color": {
                         "value": "#10c286"
                       }

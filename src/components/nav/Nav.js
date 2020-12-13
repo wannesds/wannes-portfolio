@@ -42,13 +42,16 @@ const Nav = () => {
     return(
         <div className="nav-box"  onMouseLeave={doHideNav}>
             <NavSvg fill="red" className="nav-svg" onClick={doShowNav}/>
-            <div className="nav-list" hidden={hideNav} >
+            { hideNav ? <div></div> :
+
+                <div className="nav-list">
                 {
                     items.map((item)=>
                         <NavLink key={item.id} name={item.name}/>
                     )
                 }
-            </div>
+                </div>
+            } 
         </div>
     )
 }
