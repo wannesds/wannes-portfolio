@@ -1,5 +1,6 @@
+@import '../components/_vars';
 
 .App {
-    background-color: rgb(18, 22, 22);
+    @include gradient-app;
     height: auto;
 }
