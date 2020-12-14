@@ -21,11 +21,13 @@ $grey-blue : #18584a;
 $grey-blue-d : #17473d;
 $light : #959796;
 
+$black : rgb(15, 20, 19);
+
 @mixin gradient-home {
     background: rgb(25, 35, 37); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(13,17,18,1) 0%, rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(13,17,18,1) 0%,rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(13,17,18,1) 0%,rgb(29, 49, 48) 50%, rgba(13,17,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right,  rgba(15, 20, 19) 0%, rgb(23, 40, 37) 50%, rgb(15, 20, 19) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01d3130', endColorstr='#019664',GradientType=1 ); /* IE6-9 */
 }
 
@@ -33,6 +35,6 @@ $light : #959796;
     background: rgb(17, 20, 20),
     background -moz-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
     background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
-    background: linear-gradient(to right, rgba(13,17,18,1) 0%, rgb(29, 49, 48) 50%, rgba(13,17,18,1) 100%);
+    background: linear-gradient(to right, rgba(15, 20, 19) 0%, rgb(23, 40, 37) 50%, rgb(15, 20, 19) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
 }

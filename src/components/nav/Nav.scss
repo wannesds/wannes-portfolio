@@ -1,18 +1,18 @@
 @import '../_vars';
 
 .nav-box {
-    // background-color: red;
-    width: 80px;
-    margin-left:40px;
+    background-color: red;
+    width: auto;
     height: auto;
+    margin-right: 0.5vw;
 }
 
 .nav-svg {
     width: 30px;
     height: 30px;
     fill-opacity: 0.8;
-    margin-left:35px;
-    margin-top: 5px;
+    float:right;
+    margin-right: 0;
     .cls-1 { fill: $cyan-l; }
     &:hover {
         fill-opacity: 1;
@@ -28,11 +28,13 @@
 }
 
 .nav-link {
-    margin: 10px;
-    margin-left: auto;
+    margin: 2px;
+
+    padding: 5px;
     // &:hover {
     //     border-left: solid 5px $cyan-d;
     // }
+    background-color: rgba(0, 0, 0, 0.432);
 
     a {
         font-family: $font-rubik;
@@ -48,6 +50,7 @@
             border: solid;
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
+            margin-right: 5px;
         }
     }  
 }
