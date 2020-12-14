@@ -15,7 +15,9 @@
     justify-content: center;
     width: 100%;
     z-index: 2;
-    // background-color:rgba(0, 0, 0, 0.308);
+    padding-top: 50px;
+    
+    background-color:rgba(0, 0, 0, 0.308);
 }
 
 .particles { //gets called in Animation.js
