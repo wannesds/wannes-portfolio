@@ -25,20 +25,20 @@ const Animation = () => {
                   "events": {
                     "onClick": {
                       "enable": true,
-                      "mode": "push"
+                      "mode": "trail"
                     },
                     "onDiv": {
-                      "selectors": ["#home"],
-                      "enable": true,
-                      "mode": ["bounce"],
+                      "selectors": [],
+                      "enable": false,
+                      "mode": [],
                       "type": "circle"
                     },
                     "onHover": {
                       "enable": true,
-                      "mode": "trail",
+                      "mode": "repulse",
                       "parallax": {
                         "enable": true,
-                        "force": 40,
+                        "force": 20,
                         "smooth": 20
                       }
                     },
@@ -49,7 +49,7 @@ const Animation = () => {
                     "attract": {
                       "distance": 600,
                       "duration": 1,
-                      "speed": 0.5
+                      "speed": 0.8
                     },
                     "bounce": {
                       "distance": 100
@@ -101,16 +101,16 @@ const Animation = () => {
                       "quantity": 100
                     },
                     "repulse": {
-                      "distance": 200,
-                      "duration": 1,
-                      "speed": 0.3
+                      "distance": 150,
+                      "duration": 3,
+                      "speed": 0.1
                     },
                     "slow": {
                       "factor": 5,
                       "radius": 200
                     },
                     "trail": {
-                      "delay": 1,
+                      "delay": 0.1,
                       "quantity": 1
                     }
                   }
@@ -199,7 +199,7 @@ const Animation = () => {
                     "distance": 150,
                     "enable": true,
                     "frequency": 1,
-                    "opacity": 0.2,
+                    "opacity": 0.4,
                     "shadow": {
                       "blur": 0,
                       "color": {
@@ -209,7 +209,7 @@ const Animation = () => {
                     },
                     "triangles": {
                       "enable": false,
-                      "frequency": 1
+                      "frequency": 0.5
                     },
                     "width": 1,
                     "warp": false
@@ -228,10 +228,10 @@ const Animation = () => {
                       }
                     },
                     "direction": "random",
-                    "distance": 500,
+                    "distance": 200,
                     "enable": true,
                     "gravity": {
-                      "acceleration": 4,
+                      "acceleration": 9.81,
                       "enable": false,
                       "maxSpeed": 10
                     },
@@ -273,7 +273,7 @@ const Animation = () => {
                       "factor": 1
                     },
                     "limit": 100,
-                    "value": 60
+                    "value": 100
                   },
                   "opacity": {
                     "random": {
@@ -288,7 +288,7 @@ const Animation = () => {
                       "sync": false
                     }
                   },
-                  "reduceDuplicates": false,
+                  "reduceDuplicates": true,
                   "rotate": {
                     "random": {
                       "enable": false,
@@ -364,7 +364,7 @@ const Animation = () => {
                   "twinkle": {
                     "lines": {
                       "enable": true,
-                      "frequency": 0.003,
+                      "frequency": 0.002,
                       "opacity": 0.6,
                       "color": {
                         "value": "#10c286"
