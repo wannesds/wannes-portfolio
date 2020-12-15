@@ -41,9 +41,11 @@ const Nav = () => {
     }
     return(
         <div className="nav-box"  onMouseLeave={doHideNav}>
-            <NavSvg fill="red" className="nav-svg" onClick={doShowNav}/>
-            { hideNav ? <div></div> :
-
+            { hideNav ? //show nav logo only
+                <div className="wrapper-svg">
+                    <NavSvg className="nav-svg" onClick={doShowNav}/>
+                </div>
+                : //show nav list only
                 <div className="nav-list">
                 {
                     items.map((item)=>

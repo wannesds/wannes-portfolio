@@ -1,0 +1,20 @@
+@import '../_vars';
+
+.logo-svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display:block;
+    .cls-1 { fill: $cyan-l; }
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 812px) {
+    .logo-svg {
+        width: 45px;
+        height: 45px;
+    }
+}

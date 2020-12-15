@@ -42,7 +42,7 @@ const Animation = () => {
                         "smooth": 20
                       }
                     },
-                    "resize": false
+                    "resize": true
                   },
 
                   "modes": {
@@ -198,7 +198,7 @@ const Animation = () => {
                     "consent": true,
                     "distance": 150,
                     "enable": true,
-                    "frequency": 1,
+                    "frequency": 0.6,
                     "opacity": 0.4,
                     "shadow": {
                       "blur": 0,
@@ -254,7 +254,7 @@ const Animation = () => {
                     },
                     "random": true,
                     "size": false,
-                    "speed": 5,
+                    "speed": 10,
                     "straight": true,
                     "trail": {
                       "enable": false,
@@ -270,7 +270,7 @@ const Animation = () => {
                     "density": {
                       "enable": false,
                       "area": 800,
-                      "factor": 1
+                      "factor": 0.1
                     },
                     "limit": 100,
                     "value": 100

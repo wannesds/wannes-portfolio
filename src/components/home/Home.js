@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import Header from '../Header';
+import Header from '../header/Header';
 import './Home.scss';
 import HomeLink from './HomeLink';
 import Animation from './Animation';

@@ -1,23 +1,15 @@
-@import './_vars';
+@import '../_vars';
 
 
 header { 
     //DO show clickable arrow up when scrolling up
     //DO something when hovering/clicking logo (idea: "this logo isnt clickable ;")(idea: "add another object on intro animation")
     margin: 0 auto;
-    padding: 10px 1vw;
+    padding: 10px 0;
+    width: 100vw;
     // @include gradient;
     // background-color: rgba(0, 0, 0, 0.2);
     display: inline-flex;
     justify-content: space-between;
-    .logo-svg {
-        width: 40px;
-        height: 40px;
-        .cls-1 { fill: $cyan-l; }
-        opacity: 0.8;
-        &:hover {
-            opacity: 1;
-        }
-    }
 
 }

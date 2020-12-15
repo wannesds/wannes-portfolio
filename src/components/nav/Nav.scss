@@ -1,18 +1,18 @@
 @import '../_vars';
 
 .nav-box {
-    background-color: red;
+    //background-color: red;
     width: auto;
     height: auto;
-    margin-right: 0.5vw;
 }
 
 .nav-svg {
     width: 30px;
     height: 30px;
     fill-opacity: 0.8;
-    float:right;
-    margin-right: 0;
+    margin: 0 auto;
+    display: block;
+    
     .cls-1 { fill: $cyan-l; }
     &:hover {
         fill-opacity: 1;
@@ -24,17 +24,18 @@
     display: flex;
     flex-direction: column;
     align-items:flex-end;
-    width:100%;
+    width:auto;
+    //background-color: aqua;
+    width: 10vw;
 }
 
 .nav-link {
     margin: 2px;
-
     padding: 5px;
     // &:hover {
     //     border-left: solid 5px $cyan-d;
     // }
-    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(11, 16, 12, 0.432);
 
     a {
         font-family: $font-rubik;
@@ -50,7 +51,17 @@
             border: solid;
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-            margin-right: 5px;
+          //  margin-right: 5px;
         }
     }  
+}
+
+@media (min-width: 812px) {
+    .nav-list {
+        align-items:center;
+    }
+    .nav-svg {
+        height: 45px;
+        width: 45px;
+    }
 }
