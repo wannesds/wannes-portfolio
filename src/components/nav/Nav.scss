@@ -24,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items:flex-end;
+    justify-content:center;
     width:auto;
     //background-color: aqua;
     width: 10vw;
@@ -32,6 +33,7 @@
 .nav-link {
     margin: 2px;
     padding: 5px;
+    width: auto;
     // &:hover {
     //     border-left: solid 5px $cyan-d;
     // }
