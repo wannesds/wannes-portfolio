@@ -5,7 +5,7 @@ const About = () => {
 
     return(
         <div id="about" className="about-box">
-            <a>ABOUT WURKS</a>
+            <h2>Intrests in innovative technologies, ecology, philosophy and cats</h2>
         </div>
     )
 }

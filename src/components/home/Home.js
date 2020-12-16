@@ -11,6 +11,10 @@ const Home = () => {
         <div id="home" className="home-box">
             <Animation/>
             <Header/> 
+            <div className="intro">
+                <h2>Wannes Dieltiens</h2>
+                <h1>Web Developer</h1>
+            </div>
             <div id="homelinks" className="home-links-box">
                 <HomeLink icon="〈〉" type="code"/>
                 <HomeLink icon="｛｝" type="design"/>

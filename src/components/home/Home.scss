@@ -26,6 +26,16 @@
     height: 100%;
 }
 
+.intro {
+    font-family: $font-sand;
+    align-self: center;
+    text-align: center;
+    color: $cyan-d; 
+    font-size: 110%;
+    h1 {
+        color: $cyan-l;
+    }
+}
 
 @media (min-width: 812px) {
     .home-links-box {
