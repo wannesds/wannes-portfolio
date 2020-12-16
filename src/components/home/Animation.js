@@ -364,7 +364,7 @@ const Animation = () => {
                   "twinkle": {
                     "lines": {
                       "enable": true,
-                      "frequency": 0.002,
+                      "frequency": 0.001,
                       "opacity": 0.6,
                       "color": {
                         "value": "#10c286"
@@ -372,8 +372,8 @@ const Animation = () => {
                     },
                     "particles": {
                       "enable": true,
-                      "frequency": 0.02,
-                      "opacity": 0.8,
+                      "frequency": 0.01,
+                      "opacity": 0.6,
                       "color": {
                         "value": "#10c286"
                       }

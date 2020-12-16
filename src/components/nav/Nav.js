@@ -43,7 +43,7 @@ const Nav = () => {
         <div className="nav-box"  onMouseLeave={doHideNav}>
             { hideNav ? //show nav logo only
                 <div className="wrapper-svg">
-                    <NavSvg className="nav-svg" onClick={doShowNav}/>
+                    <NavSvg className="nav-svg" onClick={doShowNav} onMouseOver= {doShowNav}/>
                 </div>
                 : //show nav list only
                 <div className="nav-list">

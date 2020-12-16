@@ -7,15 +7,15 @@
 }
 
 .nav-svg {
-    width: 30px;
-    height: 30px;
-    fill-opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    fill-opacity: 1;
     margin: 0 auto;
     display: block;
     
     .cls-1 { fill: $cyan-l; }
     &:hover {
-        fill-opacity: 1;
+        fill-opacity: 0.8;
         cursor: pointer;
     }
 }
@@ -53,7 +53,6 @@
             border: solid;
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-          //  margin-right: 5px;
         }
     }  
 }
@@ -63,7 +62,7 @@
         align-items:center;
     }
     .nav-svg {
-        height: 45px;
-        width: 45px;
+        height: 30px;
+        width: 30px;
     }
 }

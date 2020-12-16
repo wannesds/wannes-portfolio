@@ -10,7 +10,7 @@ const HomeLink = ({icon, type}) => {
             <span>{icon.slice(0,1)}</span>
             <a href={`#${type}`}>{type}</a>
             {/* <Link to="#Code">{type}</Link> */}
-            <span> {icon.slice(1,2)}</span>
+            <span>{icon.slice(1,2)}</span>
         </div>
     )
 }

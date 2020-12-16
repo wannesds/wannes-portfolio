@@ -6,9 +6,10 @@
     margin: 0 auto;
     display:block;
     .cls-1 { fill: $cyan-l; }
-    opacity: 0.8;
+    opacity: 1;
     &:hover {
-        opacity: 1;
+        opacity: 0.8;
+        cursor: pointer;
     }
 }
 
