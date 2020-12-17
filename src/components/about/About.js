@@ -7,7 +7,7 @@ const About = () => {
         <div id="about" className="about-box">
             <div className="picture"/>
             <div className="wrapper-about">
-                <h3>25, male, from Belgium</h3>
+                <h3>25 - male - from Belgium</h3>
                 <h4>Interests :</h4>
                 <ul>
                     <li>web/blockchain dev, DAPP, DEFI</li>
