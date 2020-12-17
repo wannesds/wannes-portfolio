@@ -1,6 +1,6 @@
 import React from 'react';
 import './Logo.scss';
-import {ReactComponent as LogoSvg} from '../SVG/logo-WD-D.svg';
+import {ReactComponent as LogoSvg} from '../_assets/logo-WD-D.svg';
 
 const Logo = () => {
     return(

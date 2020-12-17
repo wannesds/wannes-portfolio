@@ -1,5 +1,10 @@
 @import '../_vars';
 
 .content-type-box {
-    height: 600px;
+    height: calc(100vmin - 80px);
+    width: 80vw;
+    margin: 40px auto;
+    background-color: rgba(23, 32, 32, 0.404);
+    color: $cyan-l;
+    border: solid 2px rgb(28, 46, 42);
 }

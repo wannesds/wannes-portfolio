@@ -5,7 +5,17 @@ const About = () => {
 
     return(
         <div id="about" className="about-box">
-            <h2>Intrests in innovative technologies, ecology, philosophy and cats</h2>
+            <div className="picture"/>
+            <div className="wrapper-about">
+                <h3>25, male, from Belgium</h3>
+                <h4>Interests :</h4>
+                <ul>
+                    <li>web/blockchain dev, DAPP, DEFI</li>
+                    <li>ecology, sustainability, DIY, philosophy</li>
+                    <li>politics, decentralization, innovative idea's</li>
+                    <li>design, art, cats</li>
+                </ul>
+            </div>
         </div>
     )
 }

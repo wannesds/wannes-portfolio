@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Nav.scss';
 import NavLink from './NavLink';
-import {ReactComponent as NavSvg} from "../SVG/menu-A.svg";
+import {ReactComponent as NavSvg} from "../_assets/menu-A.svg";
 
 const Nav = () => {
     const items = [

@@ -1,10 +1,59 @@
 @import '../vars';
 
 .about-box {
-    height: 40vmin;
-    width: 80vw;
+    height: auto;
+    width: 100vw;
     margin: 0 auto;
-    background-color: rgba(23, 32, 32, 0.404);
+    margin-bottom: 100px;
+    padding: 50px 0;
+    background-color: rgba(18, 27, 27, 0.466);
     color: $cyan-l;
-    border: solid 2px rgb(28, 46, 42);
+    border: solid 1px $grey-blue-d;
+    border-style: solid none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .picture {
+        height: 200px;
+        width: 150px;
+        margin: 0 50px;
+        background-image: url(../_assets/wannes.jpg);
+        background-size: cover;
+    }
+    .wrapper-about {
+        font-family: $font-sand;
+        letter-spacing: 1px;
+        margin: 0 30px;
+        h3 {
+            text-align: center;
+            color: $cyan-l;
+        }
+        h4 {
+            color: $grey-blue;
+            margin-bottom: 0;
+            font-style: italic;
+            
+        }
+        ul li {
+            font-family: $font-nunito;
+            color: $grey-blue;
+        }
+    }
+}
+
+@media (min-width: 812px) {
+    .about-box {
+        flex-direction: row;
+        justify-content: center;
+        .picture {
+            margin-right: 20px;
+        }
+        .wrapper-about {
+            width: auto;
+            h3 {
+                text-align: start;
+            }
+        }
+    }
 }

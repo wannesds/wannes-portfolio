@@ -19,6 +19,7 @@
         text-transform: uppercase;
         &:hover {
             color: $cyan-l;
+            text-shadow: 0 0 10px $cyan;
             transition-duration: 1s;
             transition-timing-function: ease-in-out;
         }
@@ -41,7 +42,7 @@
         .home-link a:hover {
             border-color: $cyan-l;
             border-bottom: solid 3px;
-            background: linear-gradient(to top, rgb(13, 194, 155, 0.6) 0%, rgba(34, 121, 106, 0.7) 10%, rgba(34, 66, 60, 0.7) 30%,rgba(0,0,0,0) 50%);
+            background: linear-gradient(to top, rgb(13, 194, 155, 0.6) 0%, rgba(34, 121, 106, 0.7) 5%, rgba(34, 66, 60, 0.7) 20%,rgba(0,0,0,0) 40%);
             transition-duration: 0.2s;
             transition-timing-function: ease-in-out;
         }

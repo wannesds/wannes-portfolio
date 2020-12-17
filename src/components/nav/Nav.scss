@@ -51,6 +51,8 @@
         &:hover {
             color: $cyan-l;
             border: solid;
+            box-shadow: 0 0 10px $cyan;
+            text-shadow: 0 0 5px $cyan;
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
         }
