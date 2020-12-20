@@ -196,7 +196,7 @@ const Animation = () => {
                       "value": "#136952"
                     },
                     "consent": true,
-                    "distance": 150,
+                    "distance": 200,
                     "enable": true,
                     "frequency": 0.6,
                     "opacity": 0.4,
