@@ -228,7 +228,7 @@ const Animation = () => {
                       }
                     },
                     "direction": "random",
-                    "distance": 200,
+                    "distance": 100,
                     "enable": true,
                     "gravity": {
                       "acceleration": 9.81,
