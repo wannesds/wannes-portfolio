@@ -268,12 +268,12 @@ const Animation = () => {
                   },
                   "number": {
                     "density": {
-                      "enable": false,
+                      "enable": true,
                       "area": 800,
-                      "factor": 0.1
+                      "factor": 2000
                     },
-                    "limit": 100,
-                    "value": 100
+                    "limit": 80,
+                    "value": 80
                   },
                   "opacity": {
                     "random": {

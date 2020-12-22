@@ -2,11 +2,9 @@ import React, {useState} from 'react';
 import './Nav.scss';
 import NavLink from './NavLink';
 import {ReactComponent as NavSvg} from "../_assets/menu-A.svg";
-import navItems from '../_assets/data';
 
 const Nav = () => {
-    
-
+    const navItems = ["home", "about", "code", "design", "art", "contact"];
     const [hideNav, setHideNav] = useState(true);
 
     const doShowNav = () => {
@@ -15,6 +13,7 @@ const Nav = () => {
     const doHideNav = () => {
         setHideNav(true);
     }
+    console.log(navItems);
     return(
         <div className="nav-box"  onMouseLeave={doHideNav} onTouchEnd={doHideNav}>
             { hideNav ? //show nav logo only
@@ -24,9 +23,9 @@ const Nav = () => {
                 : //show nav list only
                 <div className="nav-list">
                 {
-                    navItems.map((item)=>
-                        <NavLink key={item.id} name={item.name}/>
-                    )
+                    navItems.map(item => (
+                        <NavLink  name={item}/>
+                    ))
                 }
                 </div>
             } 
