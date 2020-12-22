@@ -9,6 +9,9 @@ const Content = () => {
             <Content_type type="code"/>
             <Content_type type="design"/>
             <Content_type type="art"/>
+            {
+                
+            }
         </div>
     )
 }
