@@ -20,8 +20,6 @@
         &:hover {
             color: $cyan-l;
             text-shadow: 0 0 10px $cyan;
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
         // background-color: rgba(139, 0, 0, 0.507);
     }
@@ -43,7 +41,7 @@
             border-color: $cyan-l;
             border-bottom: solid 3px;
             background: linear-gradient(to top, rgb(13, 194, 155, 0.6) 0%, rgba(34, 121, 106, 0.7) 5%, rgba(34, 66, 60, 0.7) 20%,rgba(0,0,0,0) 40%);
-            transition-duration: 0.2s;
+            transition-duration: 0.4s;
             transition-timing-function: ease-in-out;
         }
 }

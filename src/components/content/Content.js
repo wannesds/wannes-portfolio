@@ -1,17 +1,15 @@
 import React from 'react';
 import './Content.scss';
-import Content_type from './Content_type';
+import Viewbox from './Viewbox';
+import Viewlist from './Viewlist';
 
-const Content = () => {
+const Content = ({type}) => {
 
     return(
-        <div className="content-box">        
-            <Content_type type="code"/>
-            <Content_type type="design"/>
-            <Content_type type="art"/>
-            {
-                
-            }
+        <div id={type} className="content-box green center">        
+            <h1>{type} related work</h1>
+            <Viewbox type={type}/>
+            <Viewlist type={type}/>
         </div>
     )
 }

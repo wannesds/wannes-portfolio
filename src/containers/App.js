@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.scss';
 import Home from '../components/home/Home';
-import Content from '../components/content/Content';
+import About from '../components/about/About';
+import ContentContainer from '../components/content/ContentContainer';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import About from '../components/about/About';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Home/>
       <About/>
-      <Content/>
+      <ContentContainer/>
       <Contact/>
       <Footer/>
     </div>

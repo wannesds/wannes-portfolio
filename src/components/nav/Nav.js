@@ -14,10 +14,10 @@ const Nav = () => {
         setHideNav(true);
     }
     console.log(navItems);
-    return(
+    return( // !! fix this by using cancel svg to close nav menu
         <div className="nav-box"  onMouseLeave={doHideNav} onTouchCancel={doHideNav} onTouchMove={doHideNav}>
             { hideNav ? //show nav logo only
-                <div className="wrapper-svg">
+                <div className="wrapper-svg"> 
                     <NavSvg className="nav-svg" onClick={doShowNav} onMouseOver={doShowNav} onTouchStart={doShowNav}/>
                 </div>
                 : //show nav list only

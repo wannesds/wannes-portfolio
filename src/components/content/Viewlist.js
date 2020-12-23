@@ -4,6 +4,9 @@ const Viewlist = ({type}) => {
     return(
         <div className="viewlist">
             <p>view items of {type}</p>
+            {
+               // list.map(())
+            }
         </div>
     )
 }
