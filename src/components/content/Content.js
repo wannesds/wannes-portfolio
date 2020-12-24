@@ -6,7 +6,7 @@ import Viewlist from './Viewlist';
 const Content = ({type}) => {
 
     return(
-        <div id={type} className="content-box green center">        
+        <div id={type} className="content-box">        
             <h1>{type} related work</h1>
             <Viewbox type={type}/>
             <Viewlist type={type}/>

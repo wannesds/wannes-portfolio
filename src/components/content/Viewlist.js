@@ -1,12 +1,17 @@
 import React from 'react';
+// import Data from '../_assets/ContentData.js';
 
 const Viewlist = ({type}) => {
+    // const typeData = Data.
     return(
         <div className="viewlist">
             <p>view items of {type}</p>
-            {
-               // list.map(())
-            }
+            {/* {
+               Data.map((Data, key) => 
+                   <p key={Data.id}>{Data.title}</p>
+               )
+            } */}
+            
         </div>
     )
 }

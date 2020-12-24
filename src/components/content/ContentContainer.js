@@ -4,7 +4,7 @@ import Content from './Content';
 
 const ContentContainer = () => {
 
-    const types=["code", "design", "art"];
+    const types=["Code", "Design", "Art"];
 
     return(
         <div className="content-container">        
