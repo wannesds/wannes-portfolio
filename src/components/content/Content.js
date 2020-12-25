@@ -3,7 +3,7 @@ import './Content.scss';
 import Viewbox from './Viewbox';
 import Viewlist from './Viewlist';
 
-const Content = ({type, id, info, work}) => {
+const Content = ({type, info, work}) => {
 
     return(
         <div id={type} className="content-box">        
