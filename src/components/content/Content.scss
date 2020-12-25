@@ -7,4 +7,31 @@
     background-color: rgba(23, 32, 32, 0.404);
     color: $cyan-l;
     border: solid 2px rgb(28, 46, 42);
+    display: flex;
+    flex-direction: column;
+}
+
+.type-title {
+    background-color:rgba(22, 189, 201, 0.178);
+    margin: 0;
+    height: 6%;
+    text-align: center;
+}
+
+.viewbox {
+    height: 74%;
+}
+
+.viewlist {
+    height: 20%;
+    display: flex;
+    overflow-x: scroll;
+
+    .viewlist-item {
+        height: 130px;
+        min-width: 130px;
+        max-width:130px;
+        margin: auto 5px;
+        background-color: rgb(19, 54, 46);
+    }
 }

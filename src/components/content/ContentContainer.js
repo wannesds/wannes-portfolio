@@ -1,16 +1,20 @@
 import React from 'react';
 import './Content.scss';
 import Content from './Content';
+import Data from '../_assets/ContentData';
 
 const ContentContainer = () => {
-
-    const types=["Code", "Design", "Art"];
 
     return(
         <div className="content-container">        
             {
-                types.map(type => (
-                    <Content type={type}/>
+                Data.map(types => (
+                    <Content
+                        id={types.id}
+                        type={types.type}
+                        info={types.info}
+                        work={types.work}
+                    />
                 ))
             }
         </div>
