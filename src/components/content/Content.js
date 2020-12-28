@@ -8,8 +8,10 @@ const Content = ({type, info, work}) => {
     return(
         <div id={type} className="content-box">        
             <h1 className="type-title">{info}</h1>
-            <Viewbox type={type}/>
-            <Viewlist work={work}/>
+            <section className="view">             
+                <Viewlist work={work}/>
+                <Viewbox type={type}/>
+            </section>
         </div>
     )
 }

@@ -1,37 +1,87 @@
 @import '../_vars';
 
 .content-box {
-    height: calc(100vh - 40px);
-    width: 80vw;
+    height: auto;
+    width: 90vw;
     margin: 40px auto;
-    background-color: rgba(23, 32, 32, 0.404);
+    background-color: rgba(15, 17, 17, 0.185);
     color: $cyan-l;
     border: solid 2px rgb(28, 46, 42);
+    padding: 5px;
+    
+}
+
+.view {
+    height: calc(100vh - 30px);
     display: flex;
     flex-direction: column;
 }
 
 .type-title {
     background-color:rgba(22, 189, 201, 0.178);
-    margin: 0;
-    height: 6%;
+    height: 30px;
+    font-size: 1.2rem;
     text-align: center;
+    margin: 0;
+    padding-top: 5px;
 }
 
 .viewbox {
-    height: 74%;
+    height: calc(100vh - 30px - 150px);
+    background-color: rgba(255, 255, 0, 0.253);
 }
 
 .viewlist {
-    height: 20%;
+    height: 150px;
+    width: 100%;
     display: flex;
     overflow-x: scroll;
+    margin: auto 0;
+    background-color:rgba(255, 0, 0, 0.247);
 
     .viewlist-item {
-        height: 130px;
-        min-width: 130px;
-        max-width:130px;
-        margin: auto 15px;
+        height: 120px;
+        min-width: 120px;
+        max-width: 120px;
+        margin: auto 10px;
         background-color: rgb(19, 54, 46);
+    }
+}
+
+@media (min-width: 812px) {
+    .content-box {
+        width: 80vw;
+    }
+    .viewlist {
+        justify-content: center;
+    }
+}
+
+@media (max-height: 567px) {
+
+    .view { 
+        flex-direction: row;
+        align-content: flex start;
+        height:calc(100vh - 30px - 30px);
+    }
+    .type-title {
+        width: 100%;
+    }
+    .viewbox {  
+        flex-wrap: wrap;
+        height: 100%;
+        width: 80%;
+
+    }
+    .viewlist {
+        flex-direction: column;
+        height: 100%;
+        width: 20%;
+        overflow-y: scroll;
+        overflow-x: none;
+        .viewlist-item {
+            margin: 5px auto;
+            min-height: 100px;
+        }
     }
 }

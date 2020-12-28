@@ -9,8 +9,7 @@ const Viewlist = ({work}) => {;
             {
                work.map(item => (
                    <div className="viewlist-item" key={item.id}>
-                        {item.title} ,
-                        <p>click and send callback of correct id or data to viewbox.js</p>
+                        {item.title}
                    </div>
                    
                ))
