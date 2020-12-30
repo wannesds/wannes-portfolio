@@ -4,18 +4,15 @@ import Viewbox from './Viewbox';
 import Viewlist from './Viewlist';
 
 function Content({type, info, work}) {
-    const [activeItem, setActiveItem] = useState();
+    const [activeItem, setActiveItem] = useState(work[0]);
 
-    const activateItem = (id) => {
-        work.filter((e) => e.id === [activeItem])
-    }
     console.log(activeItem)
     return(
         <div id={type} className="content-box">        
             <h1 className="type-title">{info}</h1>
             <section className="view">             
-                <Viewlist work={work} callItem={activateItem}/>
-                <Viewbox type={type} work={activeItem}/>
+                <Viewlist work={work} callItem={(item) => setActiveItem(item)}/>
+                <Viewbox type={type} item={activeItem}/>
             </section>
         </div>
     )

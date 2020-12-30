@@ -7,9 +7,9 @@ const Viewlist = ({work, callItem}) => {;
         <div className="viewlist">          
             {
                work.map(item => (
-                   <button className="viewlist-item" key={item.id} onClick={callItem(item.id)}>
+                   <div className="viewlist-item" key={item.id} onClick={() => {callItem(item)}}>
                         {item.title}
-                   </button>
+                   </div>
                    
                ))
             }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Viewbox = ({type, work}) => {
+const Viewbox = ({type, item}) => {
      return(
          <div className="viewbox">
-             <p>{work.title}</p>
+             <p>{item.title}</p>
          </div>
      )
  }
