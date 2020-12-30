@@ -1,16 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Content.scss';
 import Viewbox from './Viewbox';
 import Viewlist from './Viewlist';
 
-const Content = ({type, info, work}) => {
+function Content({type, info, work}) {
+    const [activeItem, setActiveItem] = useState();
 
+    const activateItem = (id) => {
+        work.filter((e) => e.id === [activeItem])
+    }
+    console.log(activeItem)
     return(
         <div id={type} className="content-box">        
             <h1 className="type-title">{info}</h1>
             <section className="view">             
-                <Viewlist work={work}/>
-                <Viewbox type={type}/>
+                <Viewlist work={work} callItem={activateItem}/>
+                <Viewbox type={type} work={activeItem}/>
             </section>
         </div>
     )

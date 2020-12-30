@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Viewbox = ({type}) => {
+const Viewbox = ({type, work}) => {
      return(
          <div className="viewbox">
-             <p>{type}</p>
-             <p>display a work item by getting the data or id from a callback from viewlist.js thru content.js</p>
+             <p>{work.title}</p>
          </div>
      )
  }

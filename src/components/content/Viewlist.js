@@ -1,16 +1,15 @@
 import React from 'react';
 import Data from '../_assets/ContentData.js';
 
-const Viewlist = ({work}) => {;
+const Viewlist = ({work, callItem}) => {;
 
     return(
-        <div className="viewlist">
-            
+        <div className="viewlist">          
             {
                work.map(item => (
-                   <div className="viewlist-item" key={item.id}>
+                   <button className="viewlist-item" key={item.id} onClick={callItem(item.id)}>
                         {item.title}
-                   </div>
+                   </button>
                    
                ))
             }
