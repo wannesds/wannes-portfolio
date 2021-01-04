@@ -2,6 +2,7 @@ const Data = [
     {
         id : 1,
         type : "Code",
+        icon : "〈〉",
         info : "Code related projects",
         work : [
             {
@@ -72,6 +73,7 @@ const Data = [
     {
         id : 2,
         type : "Design",
+        icon : "｛｝",
         info : "Design related examples",
         work : [
             {
@@ -97,6 +99,7 @@ const Data = [
     {
         id : 3,
         type : "Art",
+        icon : "〔〕",
         info : "Art related work",
         work : [
             {

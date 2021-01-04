@@ -1,4 +1,5 @@
 import React from 'react';
+import './Viewbox.scss';
 
 const Viewbox = ({type, item}) => {
      return(

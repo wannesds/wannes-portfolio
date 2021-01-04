@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './Content.scss';
 import Viewbox from './Viewbox';
 import Viewlist from './Viewlist';
 

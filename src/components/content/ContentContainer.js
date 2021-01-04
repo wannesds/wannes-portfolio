@@ -1,6 +1,7 @@
 import React from 'react';
 import './Content.scss';
 import Content from './Content';
+
 import Data from '../_assets/ContentData';
 
 const ContentContainer = () => {

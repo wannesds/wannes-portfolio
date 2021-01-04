@@ -1,5 +1,4 @@
 import React from 'react';
-import Data from '../_assets/ContentData.js';
 
 const Viewlist = ({work, callItem}) => {;
 
@@ -9,8 +8,7 @@ const Viewlist = ({work, callItem}) => {;
                work.map(item => (
                    <div className="viewlist-item" key={item.id} onClick={() => {callItem(item)}}>
                         {item.title}
-                   </div>
-                   
+                   </div>                  
                ))
             }
             

@@ -5,6 +5,8 @@ import './Home.scss';
 import HomeLink from './HomeLink';
 import Animation from './Animation';
 
+import Data from '../_assets/ContentData';
+
 const Home = () => {
 
     return(
@@ -18,11 +20,12 @@ const Home = () => {
             </div>
 
             <div id="homelinks" className="home-links-box">
-                <HomeLink icon="〈〉" type="code"/>
-                <HomeLink icon="｛｝" type="design"/>
-                <HomeLink icon="〔〕" type="art"/>
-            </div>
-            
+                {
+                    Data.map(types => (
+                        <HomeLink type={types.type} icon={types.icon}/>
+                    ))
+                }
+            </div>           
         </div>
     )
 }
