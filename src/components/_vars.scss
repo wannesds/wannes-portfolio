@@ -44,3 +44,18 @@ $black : rgb(15, 20, 19);
     background: linear-gradient(to right, rgba(15, 20, 19) 0%, rgb(23, 40, 37) 50%, rgb(15, 20, 19) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
 }
+
+/*
+standard css mobile first
+
+& working with 
+
+@media (min-width: 812px) { //non-mobile view
+    
+}
+
+@media (max-height: 567px) { //sideway mobile view
+
+} 
+
+*/

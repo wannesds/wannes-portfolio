@@ -2,7 +2,6 @@
 
 .content-box {
     height: auto;
-    width: 90vw;
     margin: 40px auto;
     background-color: rgba(15, 17, 17, 0.185);
     color: $cyan-l;
@@ -18,7 +17,7 @@
 }
 
 .type-title {
-    background-color:rgba(22, 189, 201, 0.178);
+    //background-color:rgba(22, 189, 201, 0.075);
     height: 30px;
     font-size: 1.2rem;
     text-align: center;
@@ -26,35 +25,13 @@
     padding-top: 5px;
 }
 
-.viewlist {
-    height: 150px;
-    width: 100%;
-    display: flex;
-    overflow-x: scroll;
-    align-content: flex-start;
-    margin: auto 0;
-    background-color:rgba(255, 0, 0, 0.247);
-
-    .viewlist-item {
-        height: 120px;
-        min-width: 120px;
-        max-width: 120px;
-        margin: auto 10px;
-        background-color: rgb(19, 54, 46);
-    }
-}
-
 @media (min-width: 812px) { //non-mobile view
     .content-box {
-        width: 80vw;
-    }
-    .viewlist {
-        align-content: flex-start;
+        width: 80%;
     }
 }
 
 @media (max-height: 567px) { //sideway mobile view
-
     .view { 
         flex-direction: row;
         align-content: flex start;
@@ -62,18 +39,5 @@
     }
     .type-title {
         width: 100%;
-    }
-
-    .viewlist {
-        flex-direction: column;
-        height: 100%;
-        width: 20%;
-        overflow-y: scroll;
-        overflow-x: none;
-        justify-content: flex-start;
-        .viewlist-item {
-            margin: 5px auto;
-            min-height: 100px;
-        }
     }
 }

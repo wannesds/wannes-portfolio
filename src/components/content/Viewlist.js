@@ -1,18 +1,25 @@
 import React from 'react';
+import './Viewlist.scss';
+import ViewlistButton from './ViewlistButton';
 
 const Viewlist = ({work, callItem}) => {;
 
     return(
-        <div className="viewlist">          
-            {
-               work.map(item => (
-                   <div className="viewlist-item" key={item.id} onClick={() => {callItem(item)}}>
-                        {item.title}
-                   </div>                  
-               ))
-            }
+        <div className="viewlist">
+            <ViewlistButton action="prev"/>
+                              
+            <div className="viewlist-box">
+                {
+                work.map(item => (
+                    <div className="viewlist-item" key={item.id} onClick={() => {callItem(item)}}>
+                            {item.title}
+                    </div>                  
+                ))
+                }
+            </div>
             
-        </div>
+            <ViewlistButton action="next"/> 
+        </div>    
     )
 }
 

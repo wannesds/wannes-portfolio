@@ -3,7 +3,7 @@
 .viewbox {
     height: calc(100vh - 30px - 150px);
     padding: 5px;
-    background-color: rgba(255, 255, 0, 0.253);
+    //background-color: rgba(255, 255, 0, 0.253);
 
     p {//prob temp
         margin: 0;
@@ -15,6 +15,5 @@
         flex-wrap: wrap;
         height: 100%;
         width: 80%;
-
     }
 }
