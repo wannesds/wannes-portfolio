@@ -5,7 +5,7 @@
     margin: 40px auto;
     //background-color: rgba(15, 17, 17, 0.185);
     color: $cyan-l;
-    //border: solid 2px rgb(28, 46, 42);
+    border: solid 2px rgb(28, 46, 42);
     padding: 5px;
     
 }
@@ -26,13 +26,8 @@
     color: $cyan-d;
 }
 
-@media (min-width: 812px) { //non-mobile view
-    .content-box {
-        width: 80%;
-    }
-}
 
-@media (max-height: 567px) { //sideway mobile view
+@media (max-height: 567px), (min-width: 812px) { 
     .view { 
         flex-direction: row;
         align-content: flex start;
@@ -40,5 +35,8 @@
     }
     .type-title {
         width: 100%;
+    }
+    .content-box {
+       width: 85%;
     }
 }

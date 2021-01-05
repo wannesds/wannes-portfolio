@@ -4,7 +4,7 @@ import NavLink from './NavLink';
 import {ReactComponent as NavSvg} from "../_assets/menu-A.svg";
 
 const Nav = () => {
-    const navItems = ["home", "about", "code", "design", "art", "contact"];
+    const navItems = ["Home", "About", "Code", "Design", "Art", "Contact"];
     const [hideNav, setHideNav] = useState(true);
 
     const doShowNav = () => {

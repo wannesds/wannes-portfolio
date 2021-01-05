@@ -10,7 +10,7 @@ import Data from '../_assets/ContentData';
 const Home = () => {
 
     return(
-        <div id="home" className="home-box">
+        <div id="Home" className="home-box">
             <Animation/>
             <Header/> 
             
