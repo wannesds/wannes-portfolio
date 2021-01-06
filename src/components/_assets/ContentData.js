@@ -2,15 +2,15 @@ const Data = [
     {
         id : 1,
         type : "Code",
-        icon : "〈〉",
+        icon : "｛｝",
         info : "Code related projects",
         work : [
             {
                 id : 1,
-                title : "Code test example 1",
-                picture : "../_assets/wannes.jpg",
-                githubLink : "githublinktest",
-                demoLink : "demo site link",
+                title : "Rick and Morty Index",
+                picture : "rick-and-morty.png",
+                githubLink : "https://github.com/wannesds/rick-and-morty",
+                demoLink : "https://wannesds.github.io/rick-and-morty/",
                 info1 : "Info text 1",
                 info2 : "info text 2"
             },
@@ -73,7 +73,7 @@ const Data = [
     {
         id : 2,
         type : "Design",
-        icon : "｛｝",
+        icon : "〈〉",
         info : "Design related examples",
         work : [
             {
