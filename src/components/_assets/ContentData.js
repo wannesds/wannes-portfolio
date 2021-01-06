@@ -11,8 +11,8 @@ const Data = [
                 picture : "rick-and-morty.png",
                 githubLink : "https://github.com/wannesds/rick-and-morty",
                 demoLink : "https://wannesds.github.io/rick-and-morty/",
-                info1 : "Info text 1",
-                info2 : "info text 2"
+                info1 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat leo vel pharetra venenatis. Ut vitae tellus vel arcu efficitur pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce in posuere mi, id suscipit metus. Nulla tincidunt neque eros. Maecenas at dapibus urna, ut varius metus. Nam elit orci, consequat nec diam quis, rhoncus commodo nunc.",
+                info2 : "Duis tristique sagittis erat, quis placerat leo tristique eget. Nullam diam est, porta ut posuere in, finibus accumsan mi. Integer neque lorem, elementum non leo a, tincidunt viverra nisi."
             },
             {
                 id : 2,

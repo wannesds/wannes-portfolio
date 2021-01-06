@@ -1,21 +1,67 @@
 @import '../vars';
 
 .viewbox {
-    height: calc(100vh - 30px - 150px);
-    padding: 5px;
+    height: calc(100vh - 150px);
+    padding: 15px;
     //background-color: rgba(255, 255, 0, 0.253);
     border: solid 2px rgb(28, 46, 42);
     display: flex;
     flex-direction: column;
+}
 
-    p {//prob temp
-        margin: 0;
+.item-section {
+    width: auto;
+    height:45%;
+    //background-color:red;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    p {
+        //background-color:rgba(0, 0, 255, 0.104);
     }
-    img {
-        width: 500px;
-        height: 200px;
+    &:first-of-type {
+        height: 10%;
     }
 }
+
+.item-title {//prob temp
+    margin: 0;
+    width: 100%;
+}
+
+.item-info {
+    width: 50%;
+}
+
+.item-links {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+        color: $cyan;
+        text-decoration: none;
+        font-size: 110%;
+        margin: 5px;
+        &:hover {
+            color: $cyan-l;
+            font-size: 120%;
+        }
+    }
+}
+
+.item-img {
+    width: 75%;
+    height: 100%;
+    align-content: center;
+    margin: auto;
+    background-image: url('../_assets/rick-and-morty.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:yellow;
+}
+
 
 @media (max-height: 567px), (min-width: 812px) {
     .viewbox {  

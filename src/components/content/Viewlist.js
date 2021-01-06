@@ -6,7 +6,7 @@ const Viewlist = ({work, callItem}) => {;
 
     return(
         <div className="viewlist">
-            <ViewlistButton action="prev"/>
+            {/* <ViewlistButton action="prev"/> */}
                               
             <div className="viewlist-box">
                 {
@@ -18,7 +18,7 @@ const Viewlist = ({work, callItem}) => {;
                 }
             </div>
             
-            <ViewlistButton action="next"/> 
+            {/* <ViewlistButton action="next"/>  */}
         </div>    
     )
 }
