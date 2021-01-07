@@ -1,6 +1,7 @@
 import React from 'react';
 import './Viewlist.scss';
 import ViewlistButton from './ViewlistButton';
+//import { url } from 'inspector';
 
 const Viewlist = ({work, callItem}) => {;
 
@@ -11,9 +12,14 @@ const Viewlist = ({work, callItem}) => {;
             <div className="viewlist-box">
                 {
                 work.map(item => (
-                    <div className="viewlist-item" key={item.id} onClick={() => {callItem(item)}}>
-                            {item.title}
-                    </div>                  
+                    <div>
+                        <img 
+                            className="viewlist-item" 
+                            key={item.id} 
+                            src={process.env.PUBLIC_URL + "/images/rick-and-morty.png"} 
+                            onClick={() => {callItem(item)}}
+                        /> 
+                    </div>            
                 ))
                 }
             </div>

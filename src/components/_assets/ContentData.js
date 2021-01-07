@@ -20,8 +20,8 @@ const Data = [
                 picture : "../_assets/wannes.jpg",
                 githubLink : "githublinktest 2",
                 demoLink : "demo site link 2",
-                info1 : "Info text 1.2",
-                info2 : "info text 2.2"
+                info1 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat leo vel pharetra venenatis. Ut vitae tellus vel arcu efficitur pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                info2 : null
             },
             {
                 id : 3,
