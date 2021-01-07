@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wannes-portfolio/static/css/main.686645cb.chunk.css",
-    "main.js": "/wannes-portfolio/static/js/main.776181a5.chunk.js",
-    "main.js.map": "/wannes-portfolio/static/js/main.776181a5.chunk.js.map",
+    "main.css": "/wannes-portfolio/static/css/main.8d5268c5.chunk.css",
+    "main.js": "/wannes-portfolio/static/js/main.fe3adda4.chunk.js",
+    "main.js.map": "/wannes-portfolio/static/js/main.fe3adda4.chunk.js.map",
     "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.7bb27f1c.js",
     "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.7bb27f1c.js.map",
     "static/css/2.31461e4f.chunk.css": "/wannes-portfolio/static/css/2.31461e4f.chunk.css",
@@ -12,18 +12,17 @@
     "static/js/3.e95f7384.chunk.js.map": "/wannes-portfolio/static/js/3.e95f7384.chunk.js.map",
     "index.html": "/wannes-portfolio/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/wannes-portfolio/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.686645cb.chunk.css.map": "/wannes-portfolio/static/css/main.686645cb.chunk.css.map",
+    "static/css/main.8d5268c5.chunk.css.map": "/wannes-portfolio/static/css/main.8d5268c5.chunk.css.map",
     "static/js/2.dd455a4e.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.dd455a4e.chunk.js.LICENSE.txt",
     "static/media/logo-WD-D.8c0040e1.svg": "/wannes-portfolio/static/media/logo-WD-D.8c0040e1.svg",
     "static/media/menu-A.6e1b216d.svg": "/wannes-portfolio/static/media/menu-A.6e1b216d.svg",
-    "static/media/Viewbox.scss": "/wannes-portfolio/static/media/rick-and-morty.dc4d86e4.png",
     "static/media/About.scss": "/wannes-portfolio/static/media/wannes.e0dced35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7bb27f1c.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.dd455a4e.chunk.js",
-    "static/css/main.686645cb.chunk.css",
-    "static/js/main.776181a5.chunk.js"
+    "static/css/main.8d5268c5.chunk.css",
+    "static/js/main.fe3adda4.chunk.js"
   ]
 }
