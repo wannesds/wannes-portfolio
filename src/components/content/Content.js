@@ -8,7 +8,7 @@ function Content({type, info, work}) {
     console.log(activeItem)
     return(
         <div id={type} className="content-box">        
-            <h1 className="type-title">{info}</h1>
+            <h1 className="type-title">{type}</h1>
             <section className="view">             
                 <Viewlist work={work} callItem={(item) => setActiveItem(item)}/>
                 <Viewbox type={type} item={activeItem}/>

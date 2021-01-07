@@ -47,11 +47,11 @@
         text-decoration: none;
         color: $grey-blue-d;
         padding: 2px;
-        border:none 2px $cyan-l;
+        border:solid 2px $black;
         &:hover {
             color: $cyan-l;
-            border: solid;
-            box-shadow: 0 0 10px $cyan;
+            border: solid 2px $cyan-l;
+            box-shadow: 0 0 5px $cyan;
             text-shadow: 0 0 5px $cyan;          
         }
     }  

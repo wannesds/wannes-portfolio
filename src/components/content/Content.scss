@@ -1,42 +1,51 @@
 @import '../_vars';
 
 .content-box {
-    height: auto;
     margin: 40px auto;
     //background-color: rgba(15, 17, 17, 0.185);
     color: $cyan-l;
     //border: solid 2px rgb(28, 46, 42);
     padding: 5px;
-    
 }
 
 .view {
-    height: calc(100vh - 30px);
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    border: solid 2px rgb(28, 46, 42);
+    border-left: none;
 }
 
 .type-title {
     //background-color:rgba(22, 189, 201, 0.075);
-    height: 30px;
-    font-size: 1.5rem;
+    font-size: 60px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 10px;
-    color: $cyan-d;
+    margin-bottom: 15px;
+    color: $grey-blue-d;
+    text-transform: uppercase;
+    height: auto;
 }
 
 
-@media (max-height: 567px), (min-width: 812px) { 
+@media (min-width: 812px) { 
     .view { 
         flex-direction: row;
-        align-content: flex start;
-        height:calc(100vh - 30px - 30px);
+        //background-color:red;
     }
     .type-title {
         width: 100%;
     }
     .content-box {
-       width: 85%;
+       width: 80%;
+    }
+}
+@media (max-height: 567px) {
+    .view { 
+        flex-direction: row;
+        height: 100vh;
+    }
+    .type-title {
+        width: 100%;
     }
 }

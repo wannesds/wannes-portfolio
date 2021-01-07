@@ -1,72 +1,93 @@
 @import '../vars';
 
 .viewbox {
-    height: calc(100vh - 150px);
-    padding: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     //background-color: rgba(255, 255, 0, 0.253);
-    border: solid 2px rgb(28, 46, 42);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.item-section {
+.item-section { //default, item-info
     width: auto;
-    height:45%;
+    height: auto;
     //background-color:red;
     display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    p {
-        //background-color:rgba(0, 0, 255, 0.104);
+
+    //background-color:rgba(0, 128, 0, 0.384);
+
+    &:first-of-type { //item-title
+        height: 7%;
+        //background-color: rgba(255, 192, 203, 0.384);
     }
-    &:first-of-type {
-        height: 10%;
+    &:last-of-type { //item-link and item-img
+        height: 60%;
+        flex-direction: column-reverse;
+        //background-color: rgba(255, 0, 0, 0.349);
     }
 }
 
-.item-title {//prob temp
-    margin: 0;
+.item-title h1 {//prob temp
     width: 100%;
+    margin-top: 0;
+    font-size: 170%;
+    color: $cyan-d;
 }
 
-.item-info {
+.item-info p {
     width: 50%;
+    margin: 3%;
+    color: $cyan-l;
 }
 
-.item-links {
-    width: 25%;
+.item-links p {
+    width: auto;
+    height: 20%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0;
     a {
-        color: $cyan;
+        height: 2rem;
+        //background-color: rgba(10, 10, 10, 0.233);
+        background-color: $cyan-d;
+        border: solid $cyan-d 2px;
+        border-radius: 10px;
+        color: $black;
         text-decoration: none;
         font-size: 110%;
-        margin: 5px;
+        padding: 5px;
         &:hover {
-            color: $cyan-l;
-            font-size: 120%;
+            background-color: $cyan;
+            border-color: $cyan;
         }
     }
 }
 
-.item-img {
-    width: 75%;
-    height: 100%;
-    align-content: center;
-    margin: auto;
+.item-img div {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
     background-image: url('../_assets/rick-and-morty.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:yellow;
+    background-position: top;
+    //background-color: yellow;
 }
 
 
 @media (max-height: 567px), (min-width: 812px) {
     .viewbox {  
         flex-wrap: wrap;
-        height: 100%;
-        width: 100%;
+    }
+    .item-section {
+        height: 33%;
+
+        &:last-of-type {
+            height: 60%;
+        }
     }
 }
