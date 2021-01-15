@@ -2,7 +2,7 @@
 
 .logo-svg {
     width: 30px;
-    height: 30px;
+    //height: 30px;
     margin: 0 auto;
     display:block;
     .cls-1 { fill: $cyan-l; }
@@ -14,8 +14,8 @@
 }
 
 @media (min-width: 812px) {
-    .logo-svg {
-        width: 45px;
-        height: 45px;
-    }
+    // .logo-svg {
+    //     width: 12%;
+    //     //height: 50%;
+    // }
 }
