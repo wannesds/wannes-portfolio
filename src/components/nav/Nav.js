@@ -18,7 +18,7 @@ const Nav = () => {
         <div className="nav-box"  onMouseLeave={doHideNav} onTouchCancel={doHideNav} onTouchMove={doHideNav}>
             { hideNav ? //show nav logo only
                 <div className="wrapper-svg"> 
-                    <NavSvg className="nav-svg" onClick={doShowNav} onMouseOver={doShowNav} onTouchStart={doShowNav}/>
+                    <NavSvg className="nav-svg" onClick={doShowNav} onMouseOver={doShowNav} onTouchStartCapture={doShowNav}/>
                 </div>
                 : //show nav list only
                 <div className="nav-list">

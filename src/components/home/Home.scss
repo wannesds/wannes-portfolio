@@ -32,9 +32,14 @@
     align-self: center;
     text-align: center;
     color: $cyan-d; 
-    font-size: 110%;
+    font-size: 100%;
     h1 {
         color: $cyan-l;
+    }
+    h3 {
+        opacity: 0.7;
+        color:rgb(230, 134, 25);
+        text-shadow: 0 0 3px rgb(255, 0, 0);
     }
 }
 

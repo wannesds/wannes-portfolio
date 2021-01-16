@@ -1,7 +1,7 @@
 import React from 'react';
 import './Viewbox.scss';
 
-const Viewbox = ({type, item}) => {
+const Viewbox = ({item}) => {
     //could change view github link to github svg maybe
      return(
          <div className="viewbox">   

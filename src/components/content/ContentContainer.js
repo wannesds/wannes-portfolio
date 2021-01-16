@@ -14,6 +14,7 @@ const ContentContainer = () => {
                         type={types.type}
                         info={types.info}
                         work={types.work}
+                        viewer={types.view}
                     />
                 ))
             }

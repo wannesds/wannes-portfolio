@@ -1,7 +1,7 @@
 @import '../_vars';
 
 .logo-svg {
-    width: 30px;
+    width: calc(20px + 1vw);
     //height: 30px;
     margin: 0 auto;
     display:block;

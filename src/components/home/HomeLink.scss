@@ -6,7 +6,7 @@
     align-items: center;
     width: 110px;
     height: 70px;
-    font-size: 150%;
+    font-size: 130%;
     margin: 0 30px;
 
     a {
@@ -31,13 +31,14 @@
 
     &:hover {
         span {
-            color: $cyan-d;
+            color: $grey-blue-d;
         }
     }    
 }
 
 @media (min-width: 812px) { 
         .home-link a:hover {
+            font-size: 110%;
             border-color: $cyan-l;
             border-bottom: solid 3px;
             background: linear-gradient(to top, rgb(13, 194, 155, 0.6) 0%, rgba(34, 121, 106, 0.7) 5%, rgba(34, 66, 60, 0.7) 20%,rgba(0,0,0,0) 40%);

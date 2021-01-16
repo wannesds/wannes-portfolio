@@ -2,16 +2,19 @@
 
 .nav-box {
     //background-color: red;
-    width: auto;
+    width: 10vw;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-svg {
-    width: 20px;
-    height: 20px;
+    width: calc(15px + 1vw);
     fill-opacity: 1;
     margin: 0 auto;
     display: block;
+    padding: auto;
     
     .cls-1 { fill: $cyan-l; }
     &:hover {
@@ -25,13 +28,11 @@
     flex-direction: column;
     align-items:flex-end;
     justify-content:center;
-    width:auto;
     //background-color: aqua;
-    width: 10vw;
+    width: auto;
 }
 
 .nav-link {
-    margin: 2px;
     padding: 5px;
     width: auto;
     // &:hover {
@@ -47,13 +48,14 @@
         text-decoration: none;
         color: $grey-blue-d;
         padding: 2px;
-        border:solid 2px $black;
-        background-color: rgba(11, 16, 12, 0.432);
+        border:solid 2px transparent;
+        background-color: rgba(16, 20, 17, 0.349);
         &:hover {
             color: $cyan-l;
-            border: solid 2px $cyan-l;
-            box-shadow: 0 0 5px $cyan;
-            text-shadow: 0 0 5px $cyan;          
+            //border: solid 2px $cyan-l;
+            //box-shadow: 0 0 4px $cyan;
+            text-shadow: 0 0 2px $cyan; 
+            font-size: 110%;         
         }
     }  
 }
@@ -61,6 +63,7 @@
 @media (min-width: 812px) {
     .nav-list {
         align-items:center;
+        width: auto;
     }
     // .nav-svg {
     //     //height: 30px;
