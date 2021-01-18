@@ -12,14 +12,14 @@ const Viewlist = ({work, callItem}) => {;
             <div className="viewlist-box">
                 {
                 work.map(item => (
-                    <div>
+                    
                         <img 
                             className="viewlist-item" 
                             key={item.id} 
                             src={process.env.PUBLIC_URL + "/images/rick-and-morty.png"} 
                             onClick={() => {callItem(item)}}
                         /> 
-                    </div>            
+                               
                 ))
                 }
             </div>

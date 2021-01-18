@@ -1,11 +1,21 @@
 @import '../_vars';
 
+.content-container {
+    //@include gradient-content;
+}
+
 .content-box {
     margin: 0 auto;
     //background-color: rgba(15, 17, 17, 0.185);
     color: $cyan-l;
     //border: solid 2px rgb(28, 46, 42);
     padding: 5px;
+}
+
+.noview {
+    .viewbox {
+        border: solid 2px rgb(28, 46, 42);
+    }
 }
 
 .view {
@@ -18,16 +28,23 @@
 
 .type-title {
     //background-color:rgba(22, 189, 201, 0.075);
+    @include gradient-title;
     font-size: 400%;
     text-align: center;
     margin: 50px 0;
-    color: $grey-blue-d;
+    color: $cyan-d;
     text-transform: uppercase;
     height: auto;
 }
 
-
 @media (min-width: 812px) { 
+    .noview {
+        display: flex;
+        flex-wrap: wrap;
+        .viewbox {
+            width: 50%;
+        }
+    }    
     .view { 
         flex-direction: row;
         //background-color:red;

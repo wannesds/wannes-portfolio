@@ -11,16 +11,16 @@ const Viewbox = ({item}) => {
              <div className="item-section item-info">
                 <p>{item.info1}</p>
                 {!item.info2 ? <p></p> : <p>{item.info2}</p>}
-                
              </div>
-             <div className="item-section item-links">
+             <div className="item-section item-links"> 
+                <p>
+                    <a href={item.demoLink}>View Website</a>
+                    <a href={item.githubLink}>View Github</a>
+                </p>
                 <div className="item-img"> 
                     <img src={process.env.PUBLIC_URL + `/images/${item.picture}`}></img>
                 </div>
-                 <p>
-                     <a href={item.demoLink}>View Website</a>
-                     <a href={item.githubLink}>View Github</a>
-                 </p>
+                
              </div>           
          </div>
      )
