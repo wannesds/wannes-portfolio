@@ -1,6 +1,6 @@
 @import '../components/_vars';
 
 .App {
-    @include gradient-app;
+    @include gradient-lessdark;
     height: auto;
 }

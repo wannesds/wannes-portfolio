@@ -12,7 +12,7 @@ $font-rubik : 'Rubik';
 $font-atlatsi : 'Atlatsi';
 $font-tech : 'Share Tech Mono'; //usedd
 
-$cyan-l: #bcd6c9;//old rgb(16, 194, 134);
+$cyan-l: #c2dfd4;//old rgb(16, 194, 134);
 $cyan : #2abb86;
 $cyan-d : #1a8a6c;
 $cyan-d-d : #17725a;
@@ -23,20 +23,24 @@ $grey-blue-d : #17473d;
 $light : #959796;
 
 $black : rgb(15, 20, 19);
+$black-t : rgba(9, 22, 20, 0.397);
+//rgba(38, 68, 63, 0.5);
 
-@mixin gradient-home {
-    background: rgb(25, 35, 37); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(13,17,18,1) 0%, rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(13,17,18,1) 0%,rgba(29,49,48,1) 45%, $cyan-d 85%, $cyan 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(15, 20, 19) 0%, rgb(23, 40, 37) 50%, rgb(15, 20, 19) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01d3130', endColorstr='#019664',GradientType=1 ); /* IE6-9 */
-}
+//DONT FORGET TO UPDATE GRADIENTS
 
-@mixin gradient-app {
+@mixin gradient-dark {
     background: rgb(17, 20, 20);
     background: -moz-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
     background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
-    background: linear-gradient(to right, rgba(15, 20, 19) 0%, rgb(23, 40, 37) 50%, rgb(15, 20, 19) 100%);
+    background: linear-gradient(to right, rgb(15, 20, 20) 0%, rgb(23, 40, 36) 40%,rgb(23, 40, 36) 60%, rgb(15, 20, 20) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin gradient-lessdark {
+    background: rgb(17, 20, 20);
+    background: -moz-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
+    background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
+    background: linear-gradient(to right, rgb(17, 24, 23) 0%, rgb(26, 46, 41) 40%,rgb(26, 46, 41) 60%, rgb(17, 24, 23) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
 }
 
@@ -44,7 +48,7 @@ $black : rgb(15, 20, 19);
     background: rgb(17, 20, 20);
     background: -moz-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
     background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
-    background: linear-gradient(to right, rgb(15, 24, 24) 0%, rgba(37, 68, 55, 0.2) 20%,rgba(37, 68, 56, 0.2) 80%, rgb(15, 24, 24) 100%);
+    background: linear-gradient(to right, rgb(15, 24, 24, 0.1) 0%, $black-t 20%, $black-t 80%, rgb(15, 24, 24, 0.1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
 }
 

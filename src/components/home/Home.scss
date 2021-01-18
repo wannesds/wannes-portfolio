@@ -1,7 +1,7 @@
 @import '../_vars';
 
 .home-box {
-    @include gradient-home;
+    @include gradient-dark;
     height: 100vh;
     display: flex;
     flex-direction: column;

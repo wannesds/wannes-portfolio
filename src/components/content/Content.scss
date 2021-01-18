@@ -15,8 +15,9 @@
 .noview {
     height: auto;
     .viewbox {
-        border: solid 2px rgb(28, 46, 42);
+        //border: solid 2px rgb(28, 46, 42);
         margin: 20px auto;
+        background: linear-gradient(to bottom, $black-t 0%, rgba(0, 0, 0, 0) 100%)
     }
 }
 
