@@ -13,8 +13,10 @@
 }
 
 .noview {
+    height: auto;
     .viewbox {
         border: solid 2px rgb(28, 46, 42);
+        margin: 20px auto;
     }
 }
 
@@ -41,8 +43,11 @@
     .noview {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-flow: flex-start;
         .viewbox {
-            width: 50%;
+            width: 48%;
         }
     }    
     .view { 
