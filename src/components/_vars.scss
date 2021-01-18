@@ -23,7 +23,7 @@ $grey-blue-d : #17473d;
 $light : #959796;
 
 $black : rgb(15, 20, 19);
-$black-t : rgba(9, 22, 20, 0.397);
+$black-t : rgba(9, 22, 20, 0.4);
 //rgba(38, 68, 63, 0.5);
 
 //DONT FORGET TO UPDATE GRADIENTS
@@ -32,7 +32,7 @@ $black-t : rgba(9, 22, 20, 0.397);
     background: rgb(17, 20, 20);
     background: -moz-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
     background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
-    background: linear-gradient(to right, rgb(15, 20, 20) 0%, rgb(23, 40, 36) 40%,rgb(23, 40, 36) 60%, rgb(15, 20, 20) 100%);
+    background: linear-gradient(to right, rgb(17, 20, 20) 0%, rgb(23, 40, 36) 40%,rgb(23, 40, 36) 60%, rgb(17, 20, 20) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
 }
 

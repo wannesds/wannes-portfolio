@@ -1,3 +1,16 @@
+//possible work atts: 
+/*{
+    id:
+    title:
+    picture
+    githubLink:
+    demoLink:
+    deviantLink:
+    info1:
+    info2:
+    info3:
+}*/
+
 const Data = [
     {
         id : 1,
@@ -18,10 +31,10 @@ const Data = [
             {
                 id : 2,
                 title : "Hygiene Expert",
-                picture : "../_assets/wannes.jpg",
+                picture : "rick-and-morty.png",
                 githubLink : "githublinktest 2",
                 demoLink : "demo site link 2",
-                info1 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat leo vel pharetra venenatis. Ut vitae tellus vel arcu efficitur pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+                info1 : "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
                 info2 : null
             },
             {
@@ -31,7 +44,16 @@ const Data = [
                 githubLink : "https://github.com/wannesds/rick-and-morty",
                 demoLink : "https://wannesds.github.io/rick-and-morty/",
                 info1 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
-                info2 : "Made as exercise app to learn ReactJS and API usage."
+                info2 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
+            },
+            {
+                id : 4,
+                title : "Rick and Morty Index",
+                picture : "",
+                githubLink : "https://github.com/wannesds/rick-and-morty",
+                demoLink : "https://wannesds.github.io/rick-and-morty/",
+                info1 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
+                info2 : ""
             }
         ]
     },
@@ -45,7 +67,7 @@ const Data = [
             {
                 id : 1,
                 title : "Design test example 1",
-                picture : "rick-and-morty.png",
+                picture1 : "rick-and-morty.png",
                 githubLink : "githublinktest",
                 demoLink : "demo site link",
                 info1 : "Info text 1",
@@ -53,12 +75,9 @@ const Data = [
             },
             {
                 id : 2,
-                title : "Design test example 2",
-                picture : "../_assets/wannes.jpg",
-                githubLink : "githublinktest 2",
-                demoLink : "demo site link 2",
+                title : "WDS Logo",
+                picture : "rick-and-morty.png",
                 info1 : "Info text 1.2",
-                info2 : "info text 2.2"
             }
         ]
     },
@@ -72,20 +91,14 @@ const Data = [
             {
                 id : 1,
                 title : "Art test example 1",
-                picture : "../_assets/wannes.jpg",
-                githubLink : "githublinktest",
-                demoLink : "demo site link",
+                deviantLink : "google.com",
                 info1 : "Info text 1",
-                info2 : "info text 2"
             },
             {
                 id : 2,
                 title : "Art test example 2",
-                picture : "../_assets/wannes.jpg",
-                githubLink : "githublinktest 2",
-                demoLink : "demo site link 2",
+                deviantLink : "google.com",
                 info1 : "Info text 1.2",
-                info2 : "info text 2.2"
             }
         ]
     }

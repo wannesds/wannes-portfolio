@@ -3,30 +3,16 @@
 .viewbox {
     height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     //background-color: rgba(255, 255, 0, 0.253);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.item-section { //default, item-info
-    width: auto;
-    height: auto;
+.item-section { //default, item-info  
     //background-color:red;
-   
-
-    //background-color:rgba(0, 128, 0, 0.384);
-
-    &:first-of-type { //item-title
-        height: 7%;
-        //background-color: rgba(255, 192, 203, 0.384);
-    }
-    &:last-of-type { //item-link and item-img
-        height: 60%;
-        flex-direction: column-reverse;
-        //background-color: rgba(255, 0, 0, 0.349);
-    }
+    //background-color:rgba(0, 128, 0, 0.384); 
 }
 
 .item-title h1 {//prob temp
@@ -37,15 +23,12 @@
 }
 
 .item-info p {
-    width: auto;
-    margin: 1% 0;
+    margin: 2% 0;
     color: $cyan-l;
     //background-color:red;
 }
 
 .item-links p {
-    width: auto;
-    height: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -70,8 +53,7 @@
 
 .item-img {
     width: 100%;
-    height: 80%;
-    margin: 10px auto;
+    height: auto;
     //background-color: yellow;
     overflow:hidden;
 }
@@ -80,12 +62,5 @@
 @media (max-height: 567px), (min-width: 812px) {
     .viewbox {  
         flex-wrap: wrap;
-    }
-    .item-section {
-        height: auto;
-
-        &:last-of-type {
-            height: 60%;
-        }
     }
 }
