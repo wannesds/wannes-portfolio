@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/wannes-portfolio/static/css/main.2f5af629.chunk.css",
-    "main.js": "/wannes-portfolio/static/js/main.a2cdce29.chunk.js",
-    "main.js.map": "/wannes-portfolio/static/js/main.a2cdce29.chunk.js.map",
-    "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.eb644f6f.js",
-    "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.eb644f6f.js.map",
+    "main.css": "/wannes-portfolio/static/css/main.470a40f0.chunk.css",
+    "main.js": "/wannes-portfolio/static/js/main.fca16056.chunk.js",
+    "main.js.map": "/wannes-portfolio/static/js/main.fca16056.chunk.js.map",
+    "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js",
+    "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js.map",
     "static/css/2.31461e4f.chunk.css": "/wannes-portfolio/static/css/2.31461e4f.chunk.css",
-    "static/js/2.8cd32ac3.chunk.js": "/wannes-portfolio/static/js/2.8cd32ac3.chunk.js",
-    "static/js/2.8cd32ac3.chunk.js.map": "/wannes-portfolio/static/js/2.8cd32ac3.chunk.js.map",
-    "static/js/3.1a29de3d.chunk.js": "/wannes-portfolio/static/js/3.1a29de3d.chunk.js",
-    "static/js/3.1a29de3d.chunk.js.map": "/wannes-portfolio/static/js/3.1a29de3d.chunk.js.map",
+    "static/js/2.ad8cc2e9.chunk.js": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js",
+    "static/js/2.ad8cc2e9.chunk.js.map": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.map",
+    "static/js/3.f2b2f3a0.chunk.js": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js",
+    "static/js/3.f2b2f3a0.chunk.js.map": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js.map",
     "index.html": "/wannes-portfolio/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/wannes-portfolio/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.2f5af629.chunk.css.map": "/wannes-portfolio/static/css/main.2f5af629.chunk.css.map",
-    "static/js/2.8cd32ac3.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.8cd32ac3.chunk.js.LICENSE.txt",
-    "static/js/main.a2cdce29.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.a2cdce29.chunk.js.LICENSE.txt",
+    "static/css/main.470a40f0.chunk.css.map": "/wannes-portfolio/static/css/main.470a40f0.chunk.css.map",
+    "static/js/2.ad8cc2e9.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.LICENSE.txt",
+    "static/js/main.fca16056.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.fca16056.chunk.js.LICENSE.txt",
     "static/media/logo-WD-D.8c0040e1.svg": "/wannes-portfolio/static/media/logo-WD-D.8c0040e1.svg",
     "static/media/menu-A.6e1b216d.svg": "/wannes-portfolio/static/media/menu-A.6e1b216d.svg",
     "static/media/About.scss": "/wannes-portfolio/static/media/wannes.e0dced35.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb644f6f.js",
+    "static/js/runtime-main.3ff5dadd.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.8cd32ac3.chunk.js",
-    "static/css/main.2f5af629.chunk.css",
-    "static/js/main.a2cdce29.chunk.js"
+    "static/js/2.ad8cc2e9.chunk.js",
+    "static/css/main.470a40f0.chunk.css",
+    "static/js/main.fca16056.chunk.js"
   ]
 }
