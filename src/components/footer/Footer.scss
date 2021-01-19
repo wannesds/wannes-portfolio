@@ -1,0 +1,25 @@
+@import '../_vars.scss';
+
+.footer-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    //min-height: 200px;
+    background-color: rgba(9, 12, 12, 0.35);
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+
+    p {
+        color: $cyan;
+        margin: 10px;
+        span, a {
+            color: $cyan-d;
+            &:hover {
+                color: $cyan-d-d;
+                text-decoration: underline;
+            }
+        }
+    }
+}
