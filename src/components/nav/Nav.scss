@@ -10,18 +10,15 @@
 }
 
 .nav-svg {
-    width: calc(15px + 1vw);
-    fill-opacity: 1;
-    margin: 0 auto;
+    width: calc(10px + 1vw);
+    margin: auto;
     display: block;
     padding: auto;
-    
+    fill: $cyan-l; 
+
     &:hover {
-        fill-opacity: 0.8;
+        fill: $cyan-l-d;
         cursor: pointer;
-    }
-    .svg-style {
-        fill: $cyan-l; 
     }
 }
 
@@ -32,6 +29,7 @@
     justify-content:center;
     //background-color: aqua;
     width: auto;
+    margin-top: 10px;
 }
 
 .nav-link {
