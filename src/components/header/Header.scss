@@ -1,21 +1,14 @@
 @import '../_vars';
 
-
 header { 
-    //DO show clickable arrow up when scrolling up
-    //DO something when hovering/clicking logo (idea: "this logo isnt clickable ;")(idea: "add another object on intro animation")
     margin: 0 auto;
     padding: 10px 0;
     width: 100vw;
-    // @include gradient;
-    //background-color: rgba(0, 0, 0, 0.15);
     display: inline-flex;
     justify-content: space-between;
-
 }
 
 .wrapper-svg {
     width: 10vw;
     height: auto;
-    //background-color:rgba(255, 0, 0, 0.329);
 }

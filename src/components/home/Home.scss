@@ -17,9 +17,6 @@
     height: auto;
     z-index: 2;
     margin-bottom: 20px;
-    
-    //@include gradient-title;
-    //background-color:rgba(0, 0, 0, 0.15);
 }
 
 .particles { //gets called in Animation.js
@@ -45,5 +42,13 @@
 }
 
 @media (min-width: 812px) {
+    .intro {
+        font-size: 120%;
+    }
+}
 
+@media (max-width: 372px) {
+    .home-links-box {
+        flex-direction: column;
+    }
 }
