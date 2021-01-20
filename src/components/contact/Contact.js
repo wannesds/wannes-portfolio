@@ -23,7 +23,6 @@ const Contact = () => {
             <a href="https://www.deviantart.com/s0dizzy"><DeviantartSVG className="socialmedia-svg"/></a>
             <a href="https://www.reddit.com/user/wannesds"><RedditSVG className="socialmedia-svg"/></a>
             <a href="https://www.github.com/wannesds"><GithubSVG className="socialmedia-svg"/></a>
-           
         </div>
     )
 }

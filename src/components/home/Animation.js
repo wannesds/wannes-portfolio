@@ -218,7 +218,7 @@ const Animation = () => {
                   "move": {
                     "angle": {
                       "offset": 45,
-                      "value": 10
+                      "value": 5
                     },
                     "attract": {
                       "enable": false,
@@ -272,8 +272,8 @@ const Animation = () => {
                       "area": 800,
                       "factor": 2000
                     },
-                    "limit": 80,
-                    "value": 80
+                    "limit": 100,
+                    "value": 100
                   },
                   "opacity": {
                     "random": {
@@ -364,7 +364,7 @@ const Animation = () => {
                   "twinkle": {
                     "lines": {
                       "enable": true,
-                      "frequency": 0.001,
+                      "frequency": 0.003,
                       "opacity": 0.6,
                       "color": {
                         "value": "#10c286"

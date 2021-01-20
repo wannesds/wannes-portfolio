@@ -1,7 +1,7 @@
 @import '../_vars';
 
 .home-box {
-    @include gradient-dark;
+    @include gradient-lessdark;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,14 +10,15 @@
 
 .home-links-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 200px;
+    height: auto;
     z-index: 2;
-    padding-top: 50px;
+    margin-bottom: 20px;
     
+    //@include gradient-title;
     //background-color:rgba(0, 0, 0, 0.15);
 }
 
@@ -44,8 +45,5 @@
 }
 
 @media (min-width: 812px) {
-    .home-links-box {
-        flex-direction: row;
-        min-height: auto; 
-    }
+
 }

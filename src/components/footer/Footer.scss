@@ -23,6 +23,7 @@
 }
 .footer-section {
     border: solid 2px $border-d;
+    border-radius: 15px;
     @include gradient-box;
     height: auto;
     margin: 10px;

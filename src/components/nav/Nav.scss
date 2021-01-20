@@ -10,7 +10,7 @@
 }
 
 .nav-svg {
-    width: calc(10px + 1vw);
+    width: calc(15px + 1vw);
     margin: auto;
     display: block;
     padding: auto;
@@ -38,6 +38,7 @@
     // &:hover {
     //     border-left: solid 5px $cyan-d;
     // }
+   
     
 
     a {
@@ -47,8 +48,7 @@
         text-emphasis: none;
         text-decoration: none;
         color: $grey-blue-d;
-        padding: 2px;
-        border:solid 2px transparent;
+        padding: 5px;
         background-color: rgba(16, 20, 17, 0.349);
         &:hover {
             color: $cyan-l;
