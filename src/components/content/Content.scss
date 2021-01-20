@@ -2,7 +2,7 @@
 
 .content-container {
     //@include gradient-content;
-    margin-bottom: 100px;
+    margin: 100px auto;
 }
 
 .content-box {
@@ -14,11 +14,6 @@
 
 .noview {
     height: auto;
-    .viewbox {
-        border: solid 2px rgb(27, 46, 40);
-        margin: 20px auto;
-        background: linear-gradient(to bottom, $black-t 0%, rgba(0, 0, 0, 0) 100%)
-    }
 }
 
 .view {
@@ -35,7 +30,7 @@
     font-size: 400%;
     text-align: center;
     margin: 50px 0;
-    color: $cyan-d;
+    color: $cyan-l;
     text-transform: uppercase;
     height: auto;
 }

@@ -23,7 +23,7 @@
     }
 }
 .footer-section {
-    border: solid 2px rgb(30, 37, 34);
+    border: solid 2px $border-d;
     @include gradient-box;
     height: auto;
     margin: 10px;

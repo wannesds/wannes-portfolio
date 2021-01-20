@@ -5,6 +5,7 @@
     height: auto;
     min-height: 300px;  
     display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
     margin-top: 200px;
 }
@@ -13,12 +14,13 @@
     width: calc(30px + 2vw);
     height: calc(30px + 2vw);
     border: solid 2px $border;
+    border-radius: 15px;
     @include gradient-box;
     fill: $cyan-l;
    // @include gradient-title;
     //background: $grey-blue-d;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     .svg-style {
         fill: $cyan-l;
     }

@@ -20,6 +20,8 @@
         margin: 0 50px;
         background-image: url(../_assets/wannes.jpg);
         background-size: cover;
+        box-shadow: 0 0px 10px $black;
+        border-radius: 5px;
     }
     .wrapper-about {
         font-family: $font-sand;
