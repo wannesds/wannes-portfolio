@@ -2,7 +2,7 @@
 
 .content-container {
     //@include gradient-content;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .content-box {
@@ -12,17 +12,10 @@
     //border: solid 2px rgb(28, 46, 42);
 }
 
-.noview {
+.content-items {
     height: auto;
 }
 
-.view {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    border: solid 2px rgb(28, 46, 42);
-    border-left: none;
-}
 
 .type-title {
     //background-color:rgba(22, 189, 201, 0.075);
@@ -33,10 +26,13 @@
     color: $cyan-l;
     text-transform: uppercase;
     height: auto;
+    border-right: none;
+    border-left: none;
+
 }
 
 @media (min-width: 812px) { 
-    .noview {
+    .content-items {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -47,10 +43,6 @@
             width: 48%;
         }
     }    
-    .view { 
-        flex-direction: row;
-        //background-color:red;
-    }
     .type-title {
         width: 100%;
     }
@@ -60,7 +52,7 @@
     }
 }
 @media (min-width: 1661px) { //still needs testing
-    .noview {
+    .content-items {
         .viewbox {
             width: 30%;
         }

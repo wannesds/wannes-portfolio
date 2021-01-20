@@ -2,12 +2,12 @@
 
 .contact-box {
     width: 100%;
-    height: auto;
-    min-height: 300px;  
+    height: auto;  
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    margin-top: 200px;
+    justify-content: center;
+    padding: 100px;
+    box-shadow:0 5px 5px $black;
 }
 
 .socialmedia-svg {
@@ -15,22 +15,18 @@
     height: calc(30px + 2vw);
     border: solid 2px $border;
     border-radius: 15px;
+    box-shadow:0 1px 5px $black;
     @include gradient-box;
     fill: $cyan-l;
    // @include gradient-title;
     //background: $grey-blue-d;
     padding: 10px;
     margin: 10px;
-    .svg-style {
-        fill: $cyan-l;
-    }
     &:hover{
-        .svg-style {
-            fill: $cyan-l-d;
-        }
         fill: $cyan-l-d;
         border: solid 2px $border;
-        
+        box-shadow: inset 0 0px 5px $black;
+        cursor: pointer;
     }
 }
 
