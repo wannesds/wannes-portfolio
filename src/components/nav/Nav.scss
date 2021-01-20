@@ -16,10 +16,12 @@
     display: block;
     padding: auto;
     
-    .cls-1 { fill: $cyan-l; }
     &:hover {
         fill-opacity: 0.8;
         cursor: pointer;
+    }
+    .svg-style {
+        fill: $cyan-l; 
     }
 }
 

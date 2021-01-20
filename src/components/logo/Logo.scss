@@ -4,12 +4,14 @@
     width: calc(20px + 1vw);
     //height: 30px;
     margin: 0 auto;
-    display:block;
-    .cls-1 { fill: $cyan-l; }
+    display:block; 
     opacity: 1;
     &:hover {
         opacity: 0.8;
         cursor: pointer;
+    }
+    .svg-style { 
+        fill: $cyan-l; 
     }
 }
 
