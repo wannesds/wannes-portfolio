@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wannes-portfolio/static/css/main.470a40f0.chunk.css",
-    "main.js": "/wannes-portfolio/static/js/main.fca16056.chunk.js",
-    "main.js.map": "/wannes-portfolio/static/js/main.fca16056.chunk.js.map",
+    "main.css": "/wannes-portfolio/static/css/main.0876600a.chunk.css",
+    "main.js": "/wannes-portfolio/static/js/main.77879639.chunk.js",
+    "main.js.map": "/wannes-portfolio/static/js/main.77879639.chunk.js.map",
     "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js",
     "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js.map",
     "static/css/2.31461e4f.chunk.css": "/wannes-portfolio/static/css/2.31461e4f.chunk.css",
@@ -12,18 +12,20 @@
     "static/js/3.f2b2f3a0.chunk.js.map": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js.map",
     "index.html": "/wannes-portfolio/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/wannes-portfolio/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.470a40f0.chunk.css.map": "/wannes-portfolio/static/css/main.470a40f0.chunk.css.map",
+    "static/css/main.0876600a.chunk.css.map": "/wannes-portfolio/static/css/main.0876600a.chunk.css.map",
     "static/js/2.ad8cc2e9.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.LICENSE.txt",
-    "static/js/main.fca16056.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.fca16056.chunk.js.LICENSE.txt",
-    "static/media/logo-WD-D.8c0040e1.svg": "/wannes-portfolio/static/media/logo-WD-D.8c0040e1.svg",
-    "static/media/menu-A.6e1b216d.svg": "/wannes-portfolio/static/media/menu-A.6e1b216d.svg",
+    "static/js/main.77879639.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.77879639.chunk.js.LICENSE.txt",
+    "static/media/linkedin.8aafbe7e.svg": "/wannes-portfolio/static/media/linkedin.8aafbe7e.svg",
+    "static/media/logo-WD-D.1dfa3c22.svg": "/wannes-portfolio/static/media/logo-WD-D.1dfa3c22.svg",
+    "static/media/menu-A.fa216081.svg": "/wannes-portfolio/static/media/menu-A.fa216081.svg",
+    "static/media/telegram.b3267e96.svg": "/wannes-portfolio/static/media/telegram.b3267e96.svg",
     "static/media/About.scss": "/wannes-portfolio/static/media/wannes.e0dced35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ff5dadd.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.ad8cc2e9.chunk.js",
-    "static/css/main.470a40f0.chunk.css",
-    "static/js/main.fca16056.chunk.js"
+    "static/css/main.0876600a.chunk.css",
+    "static/js/main.77879639.chunk.js"
   ]
 }
