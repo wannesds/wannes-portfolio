@@ -12,15 +12,20 @@ $font-rubik : 'Rubik';
 $font-atlatsi : 'Atlatsi';
 $font-tech : 'Share Tech Mono'; //usedd
 
+//-l = lighter, -d = darker
 $cyan-l: #b5d1c7;//old rgb(16, 194, 134);
+$cyan-l-d : #99aca5;
 $cyan : #2abb86;
 $cyan-d : #1a8a6c;
 $cyan-d-d : #17725a;
-$dark : #222424;
-$grey : #343636;
 $grey-blue : #18584a;
 $grey-blue-d : #17473d;
-$light : #959796;
+
+$border: #2e463e;
+$border-d: #1e2522;
+
+$dark : #222424;
+$grey : #343636;
 
 $black : rgb(15, 20, 19);
 $black-t : rgba(9, 22, 20, 0.4);
@@ -50,6 +55,10 @@ $black-t : rgba(9, 22, 20, 0.4);
     background: -webkit-linear-gradient(left, rgb(17, 20, 20) 0%, rgb(27, 34, 33) 100%);
     background: linear-gradient(to right, rgb(15, 24, 24, 0.1) 0%, $black-t 20%, $black-t 80%, rgb(15, 24, 24, 0.1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111414', endColorstr='#1b2221',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin gradient-box {
+    background: linear-gradient(to bottom, $black-t 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 /*

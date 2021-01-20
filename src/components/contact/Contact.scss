@@ -6,25 +6,28 @@
     min-height: 300px;  
     display: flex;
     justify-content: center; 
+    margin-top: 200px;
 }
 
 .socialmedia-svg {
     width: calc(30px + 2vw);
     height: calc(30px + 2vw);
-    border: solid 2px rgb(46, 70, 62);
-    background: linear-gradient(to bottom, $black-t 0%, rgba(0, 0, 0, 0) 100%);
-
+    border: solid 2px $border;
+    @include gradient-box;
+    fill: $cyan-l;
    // @include gradient-title;
     //background: $grey-blue-d;
     padding: 10px;
+    margin: 20px;
     .svg-style {
         fill: $cyan-l;
     }
     &:hover{
         .svg-style {
-            fill: rgb(153, 172, 165);
+            fill: $cyan-l-d;
         }
-        border: solid 2px rgb(36, 53, 47);
+        fill: $cyan-l-d;
+        border: solid 2px $border;
         
     }
 }

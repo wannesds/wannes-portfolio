@@ -8,18 +8,32 @@
     background-color: rgba(9, 12, 12, 0.35);
     display: flex;
     flex-direction: column;
-    //justify-content: center;
+    justify-content: center;
     align-items: center;
-
     p {
-        color: $cyan-l;
+        color: $cyan-l-d;
         margin: 10px;
         span, a {
-            color: $cyan-d;
+            color: $cyan-d-d;
             &:hover {
-                color: $cyan-d-d;
+                color: $border;
                 text-decoration: underline;
             }
         }
+    }
+}
+.footer-section {
+    border: solid 2px rgb(30, 37, 34);
+    @include gradient-box;
+    height: auto;
+    margin: 10px;
+}
+
+@media (min-width: 812px) {
+    .footer-box {
+        flex-direction: row;
+    }
+    .footer-section {
+        min-height: 150px;
     }
 }
