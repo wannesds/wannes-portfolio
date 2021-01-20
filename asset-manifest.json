@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wannes-portfolio/static/css/main.f65bac7c.chunk.css",
-    "main.js": "/wannes-portfolio/static/js/main.94352845.chunk.js",
-    "main.js.map": "/wannes-portfolio/static/js/main.94352845.chunk.js.map",
+    "main.css": "/wannes-portfolio/static/css/main.b53c2125.chunk.css",
+    "main.js": "/wannes-portfolio/static/js/main.41aface6.chunk.js",
+    "main.js.map": "/wannes-portfolio/static/js/main.41aface6.chunk.js.map",
     "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js",
     "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js.map",
     "static/css/2.31461e4f.chunk.css": "/wannes-portfolio/static/css/2.31461e4f.chunk.css",
@@ -12,12 +12,17 @@
     "static/js/3.f2b2f3a0.chunk.js.map": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js.map",
     "index.html": "/wannes-portfolio/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/wannes-portfolio/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.f65bac7c.chunk.css.map": "/wannes-portfolio/static/css/main.f65bac7c.chunk.css.map",
+    "static/css/main.b53c2125.chunk.css.map": "/wannes-portfolio/static/css/main.b53c2125.chunk.css.map",
     "static/js/2.ad8cc2e9.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.LICENSE.txt",
-    "static/js/main.94352845.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.94352845.chunk.js.LICENSE.txt",
-    "static/media/linkedin.8aafbe7e.svg": "/wannes-portfolio/static/media/linkedin.8aafbe7e.svg",
+    "static/js/main.41aface6.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.41aface6.chunk.js.LICENSE.txt",
+    "static/media/deviantart.99e6669b.svg": "/wannes-portfolio/static/media/deviantart.99e6669b.svg",
+    "static/media/github.e88d9e72.svg": "/wannes-portfolio/static/media/github.e88d9e72.svg",
+    "static/media/linkedin.c86b6ea6.svg": "/wannes-portfolio/static/media/linkedin.c86b6ea6.svg",
     "static/media/logo-WD-D.1dfa3c22.svg": "/wannes-portfolio/static/media/logo-WD-D.1dfa3c22.svg",
-    "static/media/menu-A.fa216081.svg": "/wannes-portfolio/static/media/menu-A.fa216081.svg",
+    "static/media/mail.2a767a36.svg": "/wannes-portfolio/static/media/mail.2a767a36.svg",
+    "static/media/menu-close.531ac8ac.svg": "/wannes-portfolio/static/media/menu-close.531ac8ac.svg",
+    "static/media/menu-open.385c6bbc.svg": "/wannes-portfolio/static/media/menu-open.385c6bbc.svg",
+    "static/media/reddit.aca842d1.svg": "/wannes-portfolio/static/media/reddit.aca842d1.svg",
     "static/media/telegram.b3267e96.svg": "/wannes-portfolio/static/media/telegram.b3267e96.svg",
     "static/media/About.scss": "/wannes-portfolio/static/media/wannes.e0dced35.jpg"
   },
@@ -25,7 +30,7 @@
     "static/js/runtime-main.3ff5dadd.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.ad8cc2e9.chunk.js",
-    "static/css/main.f65bac7c.chunk.css",
-    "static/js/main.94352845.chunk.js"
+    "static/css/main.b53c2125.chunk.css",
+    "static/js/main.41aface6.chunk.js"
   ]
 }
