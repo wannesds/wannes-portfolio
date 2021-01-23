@@ -1,28 +1,14 @@
-import React, {useState} from 'react';
-import Data from '../_assets/ContentData';
+import React from 'react';
 import Viewbox from './Viewbox';
-import Viewlist from './Viewlist';
 
-function Content({type, info, work, viewer}) {
-    const [activeItem, setActiveItem] = useState(work[0]);
+function Content({type, work,}) {
 
-    console.log(activeItem)
     return(
         <div id={type} className="content-box">        
-            <h1 className="type-title">{type}</h1>
-            { 
-            //!viewer ? //if viewer false then show all items
-                <section className="content-items">  
-                    { work.map(items => (
-                        <Viewbox item={items}/>
-                    )) }
-                </section> 
-            //:
-                // <section className="view">             
-                //     <Viewlist work={work} callItem={(item) => setActiveItem(item)}/>
-                //     <Viewbox item={activeItem}/>
-                // </section>
-            }
+            <h1 className="type-title">{type}</h1>        
+            <section className="content-items">  
+                { work.map(items => ( <Viewbox item={items}/> )) }
+            </section> 
         </div>
     )
 }

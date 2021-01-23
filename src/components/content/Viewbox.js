@@ -1,5 +1,6 @@
 import React from 'react';
 import './Viewbox.scss';
+import Tilt from 'react-tilt';
 
 const Viewbox = ({item}) => {
     //could change view github link to github svg maybe
@@ -20,13 +21,17 @@ const Viewbox = ({item}) => {
              <div className="item-section item-links"> 
 
                 <p>
-                    { !item.demoLink ? null : <a href={item.demoLink}>View Website</a> }
+                    { !item.demoLink ? null : <a href={item.demoLink}>Live Demo</a> }
                     { !item.githubLink ? null : <a href={item.githubLink}>Github</a> }
                     { !item.deviantLink ? null : <a href={item.deviantLink}>DeviantArt</a> }
                 </p>
 
                 <div className="items-section item-img"> 
-                    { !item.picture ? null : <img src={process.env.PUBLIC_URL + `/images/${item.picture}`}></img> }
+                    <Tilt className="Tilt" options={{ max : 25, scale : 1 }}>
+                        <div className="Tilt-inner">
+                            { !item.picture ? null : <img src={process.env.PUBLIC_URL + `/images/${item.picture}`}></img> }
+                        </div>
+                    </Tilt>
                 </div>
 
              </div>           

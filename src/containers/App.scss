@@ -1,6 +1,7 @@
-@import '../components/_vars';
+@import '../components/Vars';
 
 .App {
-    @include gradient-lessdark;
+    @include gradient-app;
     height: auto;
+    font-family: $font-rubik;
 }
