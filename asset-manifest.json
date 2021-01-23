@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/wannes-portfolio/static/css/main.faba67df.chunk.css",
-    "main.js": "/wannes-portfolio/static/js/main.d986e357.chunk.js",
-    "main.js.map": "/wannes-portfolio/static/js/main.d986e357.chunk.js.map",
+    "main.css": "/wannes-portfolio/static/css/main.16c109a9.chunk.css",
+    "main.js": "/wannes-portfolio/static/js/main.00707268.chunk.js",
+    "main.js.map": "/wannes-portfolio/static/js/main.00707268.chunk.js.map",
     "runtime-main.js": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js",
     "runtime-main.js.map": "/wannes-portfolio/static/js/runtime-main.3ff5dadd.js.map",
     "static/css/2.31461e4f.chunk.css": "/wannes-portfolio/static/css/2.31461e4f.chunk.css",
-    "static/js/2.ad8cc2e9.chunk.js": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js",
-    "static/js/2.ad8cc2e9.chunk.js.map": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.map",
+    "static/js/2.7196f6ec.chunk.js": "/wannes-portfolio/static/js/2.7196f6ec.chunk.js",
+    "static/js/2.7196f6ec.chunk.js.map": "/wannes-portfolio/static/js/2.7196f6ec.chunk.js.map",
     "static/js/3.f2b2f3a0.chunk.js": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js",
     "static/js/3.f2b2f3a0.chunk.js.map": "/wannes-portfolio/static/js/3.f2b2f3a0.chunk.js.map",
     "index.html": "/wannes-portfolio/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/wannes-portfolio/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.faba67df.chunk.css.map": "/wannes-portfolio/static/css/main.faba67df.chunk.css.map",
-    "static/js/2.ad8cc2e9.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.ad8cc2e9.chunk.js.LICENSE.txt",
-    "static/js/main.d986e357.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/main.d986e357.chunk.js.LICENSE.txt",
+    "static/css/main.16c109a9.chunk.css.map": "/wannes-portfolio/static/css/main.16c109a9.chunk.css.map",
+    "static/js/2.7196f6ec.chunk.js.LICENSE.txt": "/wannes-portfolio/static/js/2.7196f6ec.chunk.js.LICENSE.txt",
     "static/media/deviantart.99e6669b.svg": "/wannes-portfolio/static/media/deviantart.99e6669b.svg",
     "static/media/github.e88d9e72.svg": "/wannes-portfolio/static/media/github.e88d9e72.svg",
     "static/media/linkedin.c86b6ea6.svg": "/wannes-portfolio/static/media/linkedin.c86b6ea6.svg",
@@ -29,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.3ff5dadd.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.ad8cc2e9.chunk.js",
-    "static/css/main.faba67df.chunk.css",
-    "static/js/main.d986e357.chunk.js"
+    "static/js/2.7196f6ec.chunk.js",
+    "static/css/main.16c109a9.chunk.css",
+    "static/js/main.00707268.chunk.js"
   ]
 }
