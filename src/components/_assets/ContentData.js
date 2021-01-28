@@ -26,16 +26,16 @@ const Data = [
                 githubLink : "https://github.com/wannesds/rick-and-morty",
                 demoLink : "https://wannesds.github.io/rick-and-morty/",
                 info1 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
-                info2 : "Made as exercise app to learn ReactJS and API usage."
+                info2 : "Made as exercise to learn ReactJS and API usage."
             },
             {
                 id : 2,
-                title : "Hygiene Expert",
-                picture : "rick-and-morty.png",
-                githubLink : "githublinktest 2",
-                demoLink : "demo site link 2",
-                info1 : "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-                info2 : null
+                title : "Face Recognition",
+                picture : "face-recognition.png",
+                githubLink : "https://github.com/wannesds/facerecognition",
+                demoLink : "https://wannesds.github.io/facerecognition/",
+                info1 : "A Face Recognition app with user login and ranking. ",
+                info2 : "Made as exercise to learn back-end."
             },
             {
                 id : 3,

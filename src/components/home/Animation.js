@@ -5,7 +5,7 @@ import Particles from 'react-particles-js';
 const Animation = () => {
 
     return(
-            <Particles className="particles" 
+            <Particles className="particles"
             params={{
 
                 "autoPlay": true,
