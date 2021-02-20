@@ -2,7 +2,7 @@
 
 .viewbox {
     height: auto;
-    width: 100%;
+    width: 90%;
     padding: 15px;
     //background-color: rgba(255, 255, 0, 0.253);
     display: flex;
@@ -11,21 +11,22 @@
     box-shadow: 0 2px 5px $black;
     border: solid 2px $border2;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 10px auto;
     background: linear-gradient(to bottom, $black-t 0%, rgba(0, 0, 0, 0.05) 100%)
 }
 
 .item-title h1 {//prob temp
     width: 100%;
     margin-top: 0;
-    font-size: 170%;
+    font-size: 160%;
     color: $cyan-l;
     font-family: $font-rubik
 }
 
 .item-info p {
-    margin: 2% 0;
+    margin: 1% 0;
     color: $cyan-d-d;
+    font-size: 100%;
 }
 
 .item-links p {
@@ -41,7 +42,7 @@
         border-radius: 5px;
         color: $cyan-l;
         text-decoration: none;
-        font-size: 110%;
+        font-size: 100%;
         padding: 5px;
         box-shadow:0 1px 5px $black;
 
@@ -56,10 +57,13 @@
 .item-img {
     width: 100%;
     height: auto;
-    min-height: 260px;
-    padding: 10px;
+    max-height: 380px;
+    min-height: 240px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
     //background-color: yellow;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 

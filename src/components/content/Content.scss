@@ -19,9 +19,9 @@
 .type-title {
     //background-color:rgba(22, 189, 201, 0.075);
     @include gradient-title;
-    font-size: 400%;
+    font-size: 350%;
     text-align: center;
-    margin: 50px 0;
+    margin: 20px 0 15px 0;
     color: $cyan-l;
     text-transform: uppercase;
     height: auto;
@@ -51,7 +51,7 @@
 @media (min-width: 1661px) { //still needs testing
     .content-items {
         .viewbox {
-            width: 30%;
+            width: 42%;
         }
     }
 }
