@@ -51,18 +51,9 @@ const Data = [
                 title : "Brain",
                 picture : "brain.jpg",
                 info1 : "Cover design for a student her final year paper in Neuroscience.",
-            }
-        ]
-    },
-    {
-        id : 3,
-        type : "Art",
-        icon : "〔〕",
-        info : "Art related work",
-        view : true,
-        work : [
+            },
             {
-                id : 1,
+                id : 2,
                 title : "Improvisation Art",
                 picture : "art1.jpg",
                 info1 : "Example of my improvisation art style.",
