@@ -5,7 +5,7 @@ import Tilt from 'react-tilt';
 const About = () => {
 
     return(
-        <div id="about" className="about-box">
+        <div id="About" className="about-box">
             <Tilt className="Tilt" options={{ max : 25 }}>
                 <div className="Tilt-inner picture"/>
             </Tilt>
