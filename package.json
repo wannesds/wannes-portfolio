@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "index.html",
+  "homepage": ".",
   "devDependencies": {
     "@svgr/webpack": "^5.5.0"
   }
