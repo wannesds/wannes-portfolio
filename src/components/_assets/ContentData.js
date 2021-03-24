@@ -36,24 +36,6 @@ const Data = [
                 demoLink : "https://wannesds.github.io/facerecognition/",
                 info1 : "A Face Recognition app with user login and ranking. ",
                 info2 : "Made as exercise to learn back-end."
-            },
-            {
-                id : 3,
-                title : "Rick and Morty Index",
-                picture : "rick-and-morty.png",
-                githubLink : "https://github.com/wannesds/rick-and-morty",
-                demoLink : "https://wannesds.github.io/rick-and-morty/",
-                info1 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
-                info2 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
-            },
-            {
-                id : 4,
-                title : "Rick and Morty Index",
-                picture : "",
-                githubLink : "https://github.com/wannesds/rick-and-morty",
-                demoLink : "https://wannesds.github.io/rick-and-morty/",
-                info1 : "A Rick and Morty (cartoon series) index site with all characters and some information about them. A random quote appears on every page refresh.",
-                info2 : ""
             }
         ]
     },
@@ -66,39 +48,16 @@ const Data = [
         work : [
             {
                 id : 1,
-                title : "Design test example 1",
-                picture1 : "rick-and-morty.png",
-                githubLink : "githublinktest",
-                demoLink : "demo site link",
-                info1 : "Info text 1",
-                info2 : "info text 2"
+                title : "Brain",
+                picture : "brain.jpg",
+                info1 : "Cover design for a student her final year paper in Neuroscience.",
             },
             {
                 id : 2,
-                title : "WDS Logo",
-                picture : "rick-and-morty.png",
-                info1 : "Info text 1.2",
-            }
-        ]
-    },
-    {
-        id : 3,
-        type : "Art",
-        icon : "〔〕",
-        info : "Art related work",
-        view : true,
-        work : [
-            {
-                id : 1,
-                title : "Art test example 1",
-                deviantLink : "google.com",
-                info1 : "Info text 1",
-            },
-            {
-                id : 2,
-                title : "Art test example 2",
-                deviantLink : "google.com",
-                info1 : "Info text 1.2",
+                title : "Improvisation Art",
+                picture : "art1.jpg",
+                info1 : "Example of my improvisation art style.",
+                info2 : "Drawn with ink stift directly on A3."
             }
         ]
     }

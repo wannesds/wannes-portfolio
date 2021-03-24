@@ -5,7 +5,7 @@ import {ReactComponent as NavOpenSVG} from "../_assets/menu-open.svg";
 import {ReactComponent as NavCloseSVG} from "../_assets/menu-close.svg";
 
 const Nav = () => {
-    const navItems = ["Home", "About", "Code", "Design", "Art", "Contact"];
+    const navItems = ["Home", "About", "Code", "Design", "Contact"];
     const [hideNav, setHideNav] = useState(true);
 
     const doShowNav = () => {

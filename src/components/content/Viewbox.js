@@ -6,13 +6,9 @@ const Viewbox = ({item}) => {
     //could change view github link to github svg maybe
      return(
          <div className="viewbox">   
-             <div className="item-section item-title">
-
-                <h1>{item.title}</h1>
-
-             </div>
              <div className="item-section item-info">
 
+                <h1>{item.title}</h1>
                 { !item.info1 ? null : <p>{item.info1}</p> }
                 { !item.info2 ? null : <p>{item.info2}</p> }
                 { !item.info3 ? null : <p>{item.info3}</p> }
