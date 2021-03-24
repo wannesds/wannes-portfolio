@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://wannesds.github.io/wannes-portfolio",
+  "homepage": "https://wannesds.github.io/",
   "devDependencies": {
     "@svgr/webpack": "^5.5.0"
   }
