@@ -47,7 +47,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "wannes.xyz",
   "devDependencies": {
     "@svgr/webpack": "^5.5.0"
   }
