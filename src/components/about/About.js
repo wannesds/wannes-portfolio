@@ -13,7 +13,7 @@ const About = () => {
                 <h3>25 - male - from Belgium</h3>
                 <h4>Interests :</h4>
                 <ul>
-                    <li>web/blockchain dev, DAPP, DAO</li>
+                    <li>Web3 Development</li>
                     <li>ecology, sustainability, philosophy</li>
                     <li>DIY, innovative tech</li>
                     <li>design, art, cats</li>
