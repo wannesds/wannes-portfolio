@@ -21,6 +21,24 @@ const Data = [
         work : [
             {
                 id : 1,
+                title : "Crowfund",
+                picture : "rick-and-morty.png",
+                githubLink : "https://github.com/wannesds/rick-and-morty",
+                demoLink : "https://wannesds.github.io/rick-and-morty/",
+                info1 : "",
+                info2 : "Made as exercise to learn ReactJS and API usage."
+            },
+            {
+                id : 2,
+                title : "Verifiable Credentials",
+                picture : "vc-solid-eth.png",
+                githubLink : "https://github.com/wannesds/facerecognition",
+                blogLink : "https://www.konsolidate.eu/stories/vc-solid-blockchain",
+                info1 : "An internship for a POC system for verifiable credentials with Solid data-pods and Ethereum. Consists of 3 apps for Issuers, Users and Validators.",
+                info2 : "Also wrote an article about the project."
+            },
+            {
+                id : 3,
                 title : "Rick and Morty Index",
                 picture : "rick-and-morty.png",
                 githubLink : "https://github.com/wannesds/rick-and-morty",
@@ -29,7 +47,7 @@ const Data = [
                 info2 : "Made as exercise to learn ReactJS and API usage."
             },
             {
-                id : 2,
+                id : 4,
                 title : "Face Recognition",
                 picture : "face-recognition.png",
                 githubLink : "https://github.com/wannesds/facerecognition",

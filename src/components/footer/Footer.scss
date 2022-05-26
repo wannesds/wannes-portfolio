@@ -27,15 +27,11 @@
     border-radius: 15px;
     @include gradient-box;
     height: auto;
-    margin: 10px;
-   
+    margin: 10px; 
 }
 
 @media (min-width: 812px) {
     .footer-box {
         flex-direction: row;
-    }
-    .footer-section {
-        min-height: 150px;
     }
 }

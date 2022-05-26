@@ -18,8 +18,9 @@ const Viewbox = ({item}) => {
 
                 <p>
                     { !item.demoLink ? null : <a href={item.demoLink}>Live Demo</a> }
+                    { !item.blogLink ? null : <a href={item.blogLink}>Blog post</a> }
                     { !item.githubLink ? null : <a href={item.githubLink}>Github</a> }
-                    { !item.deviantLink ? null : <a href={item.deviantLink}>DeviantArt</a> }
+                    { !item.deviantLink ? null : <a href={item.deviantLink}>DeviantArt</a> }                  
                 </p>
 
                 <div className="items-section item-img"> 

@@ -16,7 +16,7 @@ const Home = () => {
             
             <div className="intro">
                 <h2>Wannes Dieltiens</h2>
-                <h1>Web Developer</h1>
+                <h1>Web3 Developer</h1>
             </div>
 
             <div id="homelinks" className="home-links-box">
