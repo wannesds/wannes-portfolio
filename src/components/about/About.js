@@ -10,7 +10,8 @@ const About = () => {
                 <div className="Tilt-inner picture"/>
             </Tilt>
             <div className="wrapper-about">
-                <h3>25 - male - from Belgium</h3>
+                {/*todo getDate - bday to auto update age */}
+                <h3>27 - male - from Belgium</h3>
                 <h4>Interests :</h4>
                 <ul>
                     <li>Web3 Development</li>

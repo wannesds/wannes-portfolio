@@ -21,12 +21,12 @@ const Data = [
         work : [
             {
                 id : 1,
-                title : "Crowfund",
-                picture : "rick-and-morty.png",
-                githubLink : "https://github.com/wannesds/rick-and-morty",
-                demoLink : "https://wannesds.github.io/rick-and-morty/",
-                info1 : "",
-                info2 : "Made as exercise to learn ReactJS and API usage."
+                title : "Crowfund DAO",
+                picture : "", 
+                githubLink : "https://github.com/wannesds/crowfund",
+                demoLink : "https://github.com/wannesds/crowfund",
+                info1 : "-Underway, github link works-",
+                info2 : ""
             },
             {
                 id : 2,
@@ -34,8 +34,8 @@ const Data = [
                 picture : "vc-solid-eth.png",
                 githubLink : "https://github.com/wannesds/facerecognition",
                 blogLink : "https://www.konsolidate.eu/stories/vc-solid-blockchain",
-                info1 : "An internship for a POC system for verifiable credentials with Solid data-pods and Ethereum. Consists of 3 apps for Issuers, Users and Validators.",
-                info2 : "Also wrote an article about the project."
+                info1 : "Did an internship on a POC system for verifiable credentials using Solid data-pods and Blockchain technology.",
+                info2 : "Consists of 3 apps for Issuers, Users and Validators. Also wrote an article about the project."
             },
             {
                 id : 3,
