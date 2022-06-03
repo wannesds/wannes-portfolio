@@ -22,11 +22,11 @@ const Data = [
             {
                 id : 1,
                 title : "Crowfund DAO",
-                picture : "", 
+                picture : "crowfund.png", 
                 githubLink : "https://github.com/wannesds/crowfund",
                 demoLink : "https://github.com/wannesds/crowfund",
-                info1 : "-Underway, github link works-",
-                info2 : ""
+                info1 : "Basic DAO launcher for crowdfunding projects. Has its own   compile and deploy scripts.",
+                info2 : "Made during a course to learn Eth/Solidity. Build with NextJS, Web3js, Infura API and Material-ui."
             },
             {
                 id : 2,

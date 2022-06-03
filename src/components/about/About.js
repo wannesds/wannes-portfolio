@@ -11,13 +11,13 @@ const About = () => {
             </Tilt>
             <div className="wrapper-about">
                 {/*todo getDate - bday to auto update age */}
-                <h3>27 - male - from Belgium</h3>
+                <h3>27 - male - Belgium</h3>
                 <h4>Interests :</h4>
                 <ul>
-                    <li>Web3 Development</li>
-                    <li>ecology, sustainability, philosophy</li>
-                    <li>DIY, innovative tech</li>
-                    <li>design, art, cats</li>
+                    <li>Web3 Dev ('Blockchains', data-pods, AI)</li>
+                    <li>Philosophy, Ecology, Governance, DIY</li>
+                    <li>Art & Crafts</li>
+                    <li>Cats & Plants</li>
                 </ul>
             </div>
         </div>
